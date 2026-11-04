@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+__pycache__/
+*.pyc
+.DS_Store
+
+# ETL が毎回キャッシュ（data/jgrants.json など）から作り直す生成物
+subsidy-finder/data/subsidies.json

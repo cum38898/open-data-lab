@@ -1,0 +1,64 @@
+---
+import Base from "../../layouts/Base.astro";
+import { loadDataset } from "../../lib/data";
+
+const { sources, records, generated_at } = loadDataset();
+const counts = records.reduce<Record<string, number>>((acc, r) => {
+  acc[r.source] = (acc[r.source] ?? 0) + 1;
+  return acc;
+}, {});
+const statusLabel: Record<string, string> = { ok: "正常に更新", cached: "キャッシュから作成", stale: "取得に失敗したため前回のデータを表示中" };
+---
+
+<Base title="このサイトについて" current="about">
+  <div class="prose">
+    <h1>このサイトについて</h1>
+    <p class="lead">
+      北海道の事業者が使える補助金・助成金を、公開されているデータから毎日自動で集めて、探しやすくまとめたサイトです。
+      個人が運営する非公式のサイトで、国や北海道が運営しているものではありません。
+    </p>
+
+    <h2>データの出どころ</h2>
+    <ul>
+      {
+        Object.entries(sources).map(([key, s]) => (
+          <li>
+            <a href={s.url} rel="noopener">{s.name}</a>：{counts[key] ?? 0}件（{statusLabel[s.status ?? ""] ?? "—"}）
+            <br />
+            <span class="small muted">{s.credit}</span>
+          </li>
+        ))
+      }
+      <li>
+        <a href="https://www.soumu.go.jp/denshijiti/code.html" rel="noopener">総務省「全国地方公共団体コード」</a>：道内179市町村の名前を、補助金の対象地域の判定に使っています。
+      </li>
+    </ul>
+    <p class="small muted">最終更新：{generated_at.replace("T", " ").slice(0, 16)}（日本時間）</p>
+
+    <h2>集めている範囲</h2>
+    <ul>
+      <li>Jグランツ：対象地域に「北海道」または「全国」を含む補助金。受付中・受付予定のものと、終了から半年以内のもの。</li>
+      <li>
+        北海道庁：ホームページの「助成制度」新着一覧と、カテゴリ「助成制度」「中小企業対策・支援」に載っているページのうち、タイトルが補助金・助成金らしいもの（更新から1年以内）。
+      </li>
+    </ul>
+
+    <h2>ご利用にあたっての注意</h2>
+    <ul>
+      <li>掲載内容は自動で集めたもので、誤りや古い情報が含まれることがあります。申請の前に、必ずリンク先の公式情報をご確認ください。</li>
+      <li>
+        北海道庁の制度の「締切」は、ページ本文に書かれた日付から自動で推定したものです（「推定」と表示しています）。実際の受付期間と異なる場合があります。
+      </li>
+      <li>受付状況（受付中・終了など）は、表示した時点の日時で判定しています。</li>
+      <li>このサイトの情報を利用して生じた損害について、運営者は責任を負いかねます。</li>
+    </ul>
+
+    <h2>ライセンス</h2>
+    <p>
+      北海道ホームページの本文は <a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>（<a
+        href="https://www.pref.hokkaido.lg.jp/kz/dxs/opendata/hokkaido_od_kiyaku.html"
+        rel="noopener">北海道オープンデータ利用規約</a
+      >）に基づき、出典を明記したうえで抜粋・整形して掲載しています。CC BY の表示がないページは、タイトルとリンクのみを掲載しています。
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,128 @@
+---
+import Base from "../../layouts/Base.astro";
+import HBars from "../../components/HBars.astro";
+import Columns from "../../components/Columns.astro";
+import ChartTooltip from "../../components/ChartTooltip.astro";
+import { loadDataset } from "../../lib/data";
+import { statusOf, todayJst } from "../../lib/status";
+
+const { records } = loadDataset();
+const now = Date.now();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const active = records.filter((r) => statusOf(r, now) !== "closed");
+const open = records.filter((r) => statusOf(r, now) === "open");
+
+// 1) 今後12週間の締切（週ごと・月曜始まり）
+const DAY = 86_400_000;
+const today = todayJst(now);
+const dow = new Date(today + 9 * 3600_000).getUTCDay(); // 0=日
+const monday = today - ((dow + 6) % 7) * DAY;
+const WEEKS = 12;
+const weekItems = Array.from({ length: WEEKS }, (_, w) => {
+  const from = monday + w * DAY * 7;
+  const to = from + DAY * 7;
+  const d0 = new Date(from + 9 * 3600_000);
+  const d1 = new Date(to - DAY + 9 * 3600_000);
+  const value = open.filter((r) => {
+    const e = r.end ? Date.parse(r.end) : NaN;
+    return e >= Math.max(from, now) && e < to;
+  }).length;
+  return {
+    label: `${d0.getUTCMonth() + 1}/${d0.getUTCDate()}`,
+    tip: `${d0.getUTCMonth() + 1}月${d0.getUTCDate()}日〜${d1.getUTCMonth() + 1}月${d1.getUTCDate()}日に締切`,
+    value,
+  };
+});
+const horizonEnd = monday + WEEKS * 7 * DAY;
+const later = open.filter((r) => r.end && Date.parse(r.end) >= horizonEnd).length;
+const noEnd = active.filter((r) => !r.end).length;
+
+// 2) 利用目的（Jグランツの分類）
+const purposeCounts = new Map<string, number>();
+for (const r of active) for (const p of r.purposes) purposeCounts.set(p, (purposeCounts.get(p) ?? 0) + 1);
+const purposeItems = [...purposeCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .map(([label, value]) => ({ label, value, href: `${base}/?purpose=${encodeURIComponent(label)}` }));
+const withPurpose = active.filter((r) => r.purposes.length > 0).length;
+
+// 3) 補助上限額の分布
+const BINS: [string, number, number][] = [
+  ["100万円未満", 0, 1e6],
+  ["100万〜500万円", 1e6, 5e6],
+  ["500万〜1,000万円", 5e6, 1e7],
+  ["1,000万〜5,000万円", 1e7, 5e7],
+  ["5,000万〜1億円", 5e7, 1e8],
+  ["1億円以上", 1e8, Infinity],
+];
+const withAmount = active.filter((r) => r.max_amount);
+const amountItems = BINS.map(([label, lo, hi]) => ({
+  label,
+  value: withAmount.filter((r) => r.max_amount! >= lo && r.max_amount! < hi).length,
+}));
+
+// 4) 北海道庁の分野・道内市町村
+const fieldCounts = new Map<string, number>();
+for (const r of active) if (r.field) fieldCounts.set(r.field, (fieldCounts.get(r.field) ?? 0) + 1);
+const fieldItems = [...fieldCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .map(([label, value]) => ({ label, value, href: `${base}/?purpose=${encodeURIComponent("f:" + label)}` }));
+const muniCounts = new Map<string, number>();
+for (const r of active) if (r.municipality) muniCounts.set(r.municipality, (muniCounts.get(r.municipality) ?? 0) + 1);
+const muniItems = [...muniCounts.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .map(([label, value]) => ({ label, value, href: `${base}/?scope=${encodeURIComponent("m:" + label)}` }));
+
+const localActive = active.filter((r) => r.scope !== "national").length;
+---
+
+<Base title="傾向を見る" current="stats" description="北海道の事業者が使える補助金の締切時期・利用目的・補助上限額の傾向をグラフで見られます。">
+  <h1>傾向を見る</h1>
+  <p class="lead">
+    いま受付中・受付予定の補助金 {active.length.toLocaleString("ja-JP")}件（うち北海道・道内市町村の制度 {localActive}件）を集計しています。棒をクリックすると、その条件で検索できます。
+  </p>
+
+  <section class="card chart-card">
+    <h2>今後12週間の締切</h2>
+    <p class="sub">受付中の補助金を、締切日の週（月曜始まり）ごとに数えました。</p>
+    <Columns items={weekItems} caption="週ごとの締切件数（受付中）" />
+    <p class="small muted">
+      13週目以降に締切：{later}件／締切日の記載がないもの：{noEnd}件。北海道庁の制度の締切は本文から推定した日付です。
+    </p>
+  </section>
+
+  <section class="card chart-card">
+    <h2>利用目的別の件数</h2>
+    <p class="sub">
+      Jグランツの「利用目的」による分類です（1件が複数の目的に当てはまることがあります。分類のある{withPurpose}件が対象）。
+    </p>
+    <HBars items={purposeItems} caption="利用目的別の件数（受付中・受付予定）" />
+  </section>
+
+  <section class="card chart-card">
+    <h2>補助上限額の分布</h2>
+    <p class="sub">上限額が分かる{withAmount.length}件の内訳です。</p>
+    <HBars items={amountItems} caption="補助上限額の分布（受付中・受付予定）" />
+  </section>
+
+  {
+    fieldItems.length > 0 && (
+      <section class="card chart-card">
+        <h2>北海道庁の制度（分野別）</h2>
+        <p class="sub">北海道庁ホームページの「助成制度」などから集めた制度を、担当部局から分野に振り分けました。</p>
+        <HBars items={fieldItems} caption="北海道庁の制度の分野別件数（受付中・要確認を含む）" />
+      </section>
+    )
+  }
+
+  {
+    muniItems.length > 0 && (
+      <section class="card chart-card">
+        <h2>道内市町村の制度</h2>
+        <p class="sub">Jグランツに掲載されている道内市町村の補助金です。市町村の独自制度は今後データ源を増やしていきます。</p>
+        <HBars items={muniItems} caption="道内市町村別の件数（受付中・受付予定）" />
+      </section>
+    )
+  }
+
+  <ChartTooltip />
+</Base>

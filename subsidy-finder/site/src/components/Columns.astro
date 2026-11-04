@@ -1,0 +1,153 @@
+---
+// 縦棒グラフ（1系列）。HTML/CSS で描き、目盛り線は背景に敷く。
+export interface ColumnItem {
+  label: string; // 軸ラベル（短く）
+  tip: string; // ツールチップ用の長いラベル
+  value: number;
+  href?: string;
+}
+interface Props {
+  items: ColumnItem[];
+  unit?: string;
+  caption: string;
+  height?: number;
+}
+const { items, unit = "件", caption, height = 200 } = Astro.props;
+
+// きりのよい目盛り
+const rawMax = Math.max(1, ...items.map((i) => i.value));
+const steps = [1, 2, 5, 10, 20, 25, 50, 100, 200, 500];
+const step = steps.find((s) => rawMax / s <= 5) ?? Math.ceil(rawMax / 5);
+const max = Math.ceil(rawMax / step) * step;
+const ticks: number[] = [];
+for (let v = 0; v <= max; v += step) ticks.push(v);
+---
+
+<div class="cols chart" role="group" aria-label={caption} style={`--h:${height}px`}>
+  <div class="cols-plot">
+    <div class="cols-grid" aria-hidden="true">
+      {
+        ticks.map((t) => (
+          <div class={t === 0 ? "tick base" : "tick"} style={`bottom:${(t / max) * 100}%`}>
+            <span>{t}</span>
+          </div>
+        ))
+      }
+    </div>
+    <div class="cols-bars">
+      {
+        items.map((it) => {
+          const Tag = it.href ? "a" : "div";
+          return (
+            <Tag
+              class="col"
+              href={it.href}
+              tabindex={it.href ? undefined : 0}
+              data-tip-value={`${it.value.toLocaleString("ja-JP")}${unit}`}
+              data-tip-label={it.tip}
+              aria-label={`${it.tip}：${it.value}${unit}`}
+            >
+              <span class="col-bar" style={`height:${(it.value / max) * 100}%`} />
+            </Tag>
+          );
+        })
+      }
+    </div>
+  </div>
+  <div class="cols-x" aria-hidden="true">
+    {items.map((it) => <span>{it.label}</span>)}
+  </div>
+</div>
+<details class="table-view">
+  <summary>表で見る</summary>
+  <table class="data-table">
+    <caption class="small muted" style="text-align:left">{caption}</caption>
+    <thead><tr><th>期間</th><th class="num">{unit}数</th></tr></thead>
+    <tbody>
+      {items.map((it) => <tr><td>{it.tip}</td><td class="num">{it.value.toLocaleString("ja-JP")}</td></tr>)}
+    </tbody>
+  </table>
+</details>
+
+<style>
+  .cols {
+    --axis-w: 32px;
+  }
+  .cols-plot {
+    position: relative;
+    height: var(--h);
+    margin-left: var(--axis-w);
+    margin-top: 8px;
+  }
+  .cols-grid .tick {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-top: 1px solid var(--grid);
+  }
+  .cols-grid .tick.base {
+    border-top-color: var(--baseline);
+  }
+  .cols-grid .tick span {
+    position: absolute;
+    right: calc(100% + 8px);
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .cols-bars {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+  .col {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+  }
+  .col:hover,
+  .col:focus-visible {
+    background: var(--surface-2);
+  }
+  .col-bar {
+    display: block;
+    width: min(24px, 70%);
+    background: var(--series-1);
+    border-radius: 4px 4px 0 0;
+  }
+  .col:hover .col-bar,
+  .col:focus-visible .col-bar {
+    background: var(--series-1-hover);
+  }
+  .cols-x {
+    margin-left: var(--axis-w);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 2px;
+    margin-top: 6px;
+  }
+  .cols-x span {
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  @media (max-width: 560px) {
+    .cols-x span:nth-child(even) {
+      visibility: hidden;
+    }
+  }
+</style>

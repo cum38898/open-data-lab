@@ -1,0 +1,291 @@
+---
+import Base from "../layouts/Base.astro";
+import ResultCard from "../components/ResultCard.astro";
+import { facetValues, loadDataset } from "../lib/data";
+import { daysLeft, statusOf } from "../lib/status";
+import { SOON_DAYS } from "../lib/chip";
+
+const { records } = loadDataset();
+const now = Date.now();
+const active = records.filter((r) => statusOf(r, now) !== "closed");
+const openCount = records.filter((r) => statusOf(r, now) === "open").length;
+const soonCount = records.filter((r) => {
+  const left = daysLeft(r.end, now);
+  return statusOf(r, now) === "open" && left !== null && left <= SOON_DAYS;
+}).length;
+const localCount = active.filter((r) => r.scope !== "national").length;
+
+const purposes = facetValues(records, (r) => r.purposes);
+const industries = facetValues(records, (r) => r.industries);
+const fields = facetValues(records, (r) => (r.field ? [r.field] : []));
+const municipalities = facetValues(records, (r) => (r.municipality ? [r.municipality] : []));
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<Base current="search">
+  <h1>北海道の事業者が使える補助金を、まとめて探す</h1>
+  <p class="lead">
+    国の補助金（Jグランツ）と北海道庁の助成制度を毎日集めて、締切の近い順に並べています。
+  </p>
+
+  <section class="tiles" aria-label="概要">
+    <div class="card tile"><p class="label">受付中</p><p class="value">{openCount}<small>件</small></p></div>
+    <div class="card tile">
+      <p class="label">{SOON_DAYS}日以内に締切</p><p class="value">{soonCount}<small>件</small></p>
+    </div>
+    <div class="card tile">
+      <p class="label">北海道・道内市町村の制度</p><p class="value">{localCount}<small>件</small></p>
+    </div>
+  </section>
+
+  <form class="card filters" id="filters" role="search" onsubmit="return false">
+    <div class="field wide">
+      <label for="q">キーワード</label>
+      <input
+        id="q"
+        name="q"
+        type="search"
+        placeholder="例：設備投資、省エネ、人材、小樽市"
+        autocomplete="off"
+        enterkeyhint="search"
+      />
+    </div>
+    <div class="field">
+      <label for="status">受付状況</label>
+      <select id="status" name="status">
+        <option value="active">受付中・受付予定</option>
+        <option value="open">受付中のみ</option>
+        <option value="soon">{SOON_DAYS}日以内に締切</option>
+        <option value="all">終了したものも含む</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="scope">制度の種類</label>
+      <select id="scope" name="scope">
+        <option value="">すべて</option>
+        <option value="national">国・全国対象</option>
+        <option value="local">北海道・道内市町村</option>
+        {municipalities.map((m) => <option value={`m:${m}`}>{m}</option>)}
+      </select>
+    </div>
+    <div class="field">
+      <label for="purpose">利用目的</label>
+      <select id="purpose" name="purpose">
+        <option value="">すべて</option>
+        {purposes.map((p) => <option value={p}>{p}</option>)}
+        {fields.length > 0 && (
+          <optgroup label="北海道庁の分野">
+            {fields.map((f) => <option value={`f:${f}`}>{f}</option>)}
+          </optgroup>
+        )}
+      </select>
+    </div>
+    <div class="field">
+      <label for="industry">業種</label>
+      <select id="industry" name="industry">
+        <option value="">すべて</option>
+        {industries.map((i) => <option value={i}>{i}</option>)}
+      </select>
+    </div>
+    <div class="field">
+      <label for="employees">自社の従業員数</label>
+      <select id="employees" name="employees">
+        <option value="">指定しない</option>
+        <option value="5">5人以下</option>
+        <option value="20">6〜20人</option>
+        <option value="100">21〜100人</option>
+        <option value="300">101〜300人</option>
+        <option value="900">301〜900人</option>
+        <option value="1000">901人以上</option>
+      </select>
+    </div>
+  </form>
+
+  <div class="result-bar">
+    <p class="result-count" aria-live="polite" id="count">
+      {active.length}件 <span class="muted">（受付中・受付予定）</span>
+    </p>
+    <div class="sort">
+      <button type="button" class="reset" id="reset" hidden>条件をクリア</button>
+      <label for="sort">並び順</label>
+      <select id="sort" name="sort">
+        <option value="deadline">締切が近い順</option>
+        <option value="amount">上限額が大きい順</option>
+        <option value="new">受付開始・更新が新しい順</option>
+      </select>
+    </div>
+  </div>
+
+  <ul class="results" id="results">
+    {records.map((r) => <ResultCard record={r} now={now} />)}
+  </ul>
+  <p class="card empty" id="empty" hidden>
+    条件に合う補助金が見つかりませんでした。キーワードを短くするか、絞り込みを外してみてください。
+  </p>
+  <div class="more"><button type="button" class="button secondary" id="more" hidden>さらに表示</button></div>
+
+  <script is:inline define:vars={{ searchUrl: `${base}/data/search.json` }}>
+    window.__SEARCH_URL__ = searchUrl;
+  </script>
+  <script>
+    import { chipFor, SOON_DAYS } from "../lib/chip";
+    import { daysLeft, employeesEligible, normalizeQuery, statusOf } from "../lib/status";
+
+    type Row = {
+      id: string; t: string; s: string; o: string; src: string; sc: string; m: string | null;
+      p: string[]; i: string[]; f: string | null; e: string | null; x: number | null;
+      st: string | null; en: string | null; es: boolean; ch: boolean; u: string | null; q: string;
+    };
+
+    const PAGE = 40;
+    const form = document.getElementById("filters") as HTMLFormElement;
+    const list = document.getElementById("results")!;
+    const countEl = document.getElementById("count")!;
+    const emptyEl = document.getElementById("empty")!;
+    const moreBtn = document.getElementById("more") as HTMLButtonElement;
+    const resetBtn = document.getElementById("reset") as HTMLButtonElement;
+    const sortSel = document.getElementById("sort") as HTMLSelectElement;
+    const cards = new Map<string, HTMLElement>();
+    list.querySelectorAll<HTMLElement>("li[data-id]").forEach((li) => cards.set(li.dataset.id!, li));
+
+    let rows: Row[] = [];
+    let limit = PAGE;
+    const FIELDS = ["q", "status", "scope", "purpose", "industry", "employees"] as const;
+
+    function readState() {
+      const fd = new FormData(form);
+      const state: Record<string, string> = {};
+      for (const k of FIELDS) state[k] = String(fd.get(k) ?? "");
+      state.sort = sortSel.value;
+      return state;
+    }
+
+    function writeUrl(state: Record<string, string>) {
+      const params = new URLSearchParams();
+      for (const [k, v] of Object.entries(state)) {
+        if (!v || (k === "status" && v === "active") || (k === "sort" && v === "deadline")) continue;
+        params.set(k, v);
+      }
+      const qs = params.toString();
+      history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+      resetBtn.hidden = !qs;
+    }
+
+    function restoreFromUrl() {
+      const params = new URLSearchParams(location.search);
+      for (const k of FIELDS) {
+        const el = form.elements.namedItem(k) as HTMLInputElement | HTMLSelectElement | null;
+        const v = params.get(k);
+        if (el && v !== null) el.value = v;
+      }
+      const s = params.get("sort");
+      if (s) sortSel.value = s;
+    }
+
+    function matches(r: Row, st: Record<string, string>, now: number): boolean {
+      const status = statusOf({ start: r.st, end: r.en, closed_hint: r.ch }, now);
+      if (st.status === "active" && status === "closed") return false;
+      if (st.status === "open" && status !== "open") return false;
+      if (st.status === "soon") {
+        const left = daysLeft(r.en, now);
+        if (status !== "open" || left === null || left > SOON_DAYS) return false;
+      }
+      if (st.scope === "national" && r.sc !== "national") return false;
+      if (st.scope === "local" && r.sc === "national") return false;
+      if (st.scope.startsWith("m:") && r.m !== st.scope.slice(2)) return false;
+      if (st.purpose.startsWith("f:")) {
+        if (r.f !== st.purpose.slice(2)) return false;
+      } else if (st.purpose && !r.p.includes(st.purpose)) return false;
+      if (st.industry && !r.i.includes(st.industry)) return false;
+      if (st.employees) {
+        const n = Number(st.employees);
+        if (!employeesEligible(r.e, n)) return false;
+      }
+      if (st.q) {
+        const terms = normalizeQuery(st.q).split(/\s+/).filter(Boolean);
+        if (!terms.every((t) => r.q.includes(t))) return false;
+      }
+      return true;
+    }
+
+    function sortRows(list: Row[], key: string) {
+      const endKey = (r: Row) => (r.en ? Date.parse(r.en) : Number.MAX_SAFE_INTEGER);
+      if (key === "amount") list.sort((a, b) => (b.x ?? 0) - (a.x ?? 0) || endKey(a) - endKey(b));
+      else if (key === "new")
+        list.sort((a, b) => String(b.st ?? b.u ?? "").localeCompare(String(a.st ?? a.u ?? "")));
+      else list.sort((a, b) => endKey(a) - endKey(b));
+    }
+
+    function render(resetLimit = true) {
+      if (resetLimit) limit = PAGE;
+      const st = readState();
+      writeUrl(st);
+      const now = Date.now();
+      const hits = rows.filter((r) => matches(r, st, now));
+      sortRows(hits, st.sort);
+
+      const frag = document.createDocumentFragment();
+      const shown = new Set<string>();
+      hits.slice(0, limit).forEach((r) => {
+        const li = cards.get(r.id);
+        if (!li) return;
+        li.hidden = false;
+        const chip = chipFor({ start: r.st, end: r.en, end_estimated: r.es, closed_hint: r.ch }, now);
+        const chipEl = li.querySelector<HTMLElement>("[data-chip]");
+        if (chipEl) {
+          chipEl.className = `chip ${chip.cls}`;
+          chipEl.querySelector("[data-chip-text]")!.textContent = chip.text;
+        }
+        shown.add(r.id);
+        frag.appendChild(li);
+      });
+      cards.forEach((li, id) => {
+        if (!shown.has(id)) {
+          li.hidden = true;
+          frag.appendChild(li);
+        }
+      });
+      list.appendChild(frag);
+
+      const label =
+        st.status === "all" ? "（終了を含む）" : st.status === "open" ? "（受付中）" : st.status === "soon" ? `（${SOON_DAYS}日以内に締切）` : "（受付中・受付予定）";
+      countEl.innerHTML = "";
+      countEl.append(`${hits.length}件 `);
+      const span = document.createElement("span");
+      span.className = "muted";
+      span.textContent = label;
+      countEl.append(span);
+      emptyEl.hidden = hits.length > 0;
+      moreBtn.hidden = hits.length <= limit;
+      moreBtn.textContent = `さらに表示（残り${hits.length - limit}件）`;
+    }
+
+    let timer: number | undefined;
+    form.addEventListener("input", () => {
+      clearTimeout(timer);
+      timer = window.setTimeout(() => render(), 120);
+    });
+    sortSel.addEventListener("change", () => render());
+    moreBtn.addEventListener("click", () => {
+      limit += PAGE;
+      render(false);
+    });
+    resetBtn.addEventListener("click", () => {
+      form.reset();
+      sortSel.value = "deadline";
+      render();
+    });
+
+    restoreFromUrl();
+    fetch((window as any).__SEARCH_URL__)
+      .then((res) => res.json())
+      .then((data: Row[]) => {
+        rows = data;
+        render();
+      })
+      .catch(() => {
+        // 検索データが読めない場合は、ビルド時に描画した一覧（受付中・受付予定）をそのまま見せる
+        countEl.textContent = "検索データを読み込めませんでした。一覧は受付中・受付予定のものです。";
+      });
+  </script>
+</Base>
