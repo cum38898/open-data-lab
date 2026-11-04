@@ -1,0 +1,130 @@
+name: site
+
+# open-data-lab の全プロジェクトを1つの GitHub Pages サイトとして公開する。
+#   /                 … プロジェクト一覧（pages/index.html）
+#   /subsidy-finder/  … 北海道 補助金ファインダー
+#   /diet-tracker/    … 国会議論トラッカー
+on:
+  schedule:
+    - cron: "17 20 * * *" # 毎日 05:17（日本時間）にデータを取り直して公開
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            subsidy-finder/site/package-lock.json
+            diet-tracker/site/package-lock.json
+
+      - name: "subsidy-finder: ETL tests"
+        working-directory: subsidy-finder
+        run: python -m unittest discover -s etl/tests -t .
+      - name: "subsidy-finder: site tests and build"
+        working-directory: subsidy-finder
+        run: |
+          python -m etl.build --offline
+          npm ci --prefix site
+          npm test --prefix site
+          npm run build --prefix site
+
+      - name: "diet-tracker: ETL tests"
+        working-directory: diet-tracker
+        run: python -m unittest discover -s etl/tests -t .
+      - name: "diet-tracker: site tests and build"
+        working-directory: diet-tracker/site
+        run: |
+          npm ci
+          npm test
+          npm run build
+
+  update-and-deploy:
+    # main への push・定期実行・手動実行のときだけ公開する（PR では公開しない）
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write # 取得したデータをコミットする
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            subsidy-finder/site/package-lock.json
+            diet-tracker/site/package-lock.json
+
+      # データ取得に失敗しても、コミット済みのデータでサイトは公開する
+      - name: "subsidy-finder: fetch data"
+        working-directory: subsidy-finder
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python -m etl.build --offline
+          else
+            python -m etl.build || python -m etl.build --offline
+          fi
+      - name: "diet-tracker: fetch data"
+        if: github.event_name != 'push'
+        working-directory: diet-tracker
+        run: python -m etl.fetch || echo "::warning::diet-tracker fetch failed; using committed data"
+
+      - name: Commit updated data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add subsidy-finder/data/jgrants.json subsidy-finder/data/hokkaido_pref.json diet-tracker/data
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: 公開データを更新（$(TZ=Asia/Tokyo date +%F)）"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Build sites
+        env:
+          SITE_URL: ${{ steps.pages.outputs.origin }}
+          PAGES_BASE: ${{ steps.pages.outputs.base_path }}
+        run: |
+          (cd subsidy-finder/site && npm ci && BASE_PATH="$PAGES_BASE/subsidy-finder" npm run build)
+          (cd diet-tracker/site && npm ci && BASE_PATH="$PAGES_BASE/diet-tracker" npm run build)
+          mkdir -p _site
+          cp -r pages/. _site/
+          cp -r subsidy-finder/site/dist _site/subsidy-finder
+          cp -r diet-tracker/site/dist _site/diet-tracker
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

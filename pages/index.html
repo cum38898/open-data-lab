@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>open-data-lab</title>
+    <meta name="description" content="オープンデータを集めて、分野を絞って検索・可視化するサイトの実験場。" />
+    <meta name="color-scheme" content="light dark" />
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f6f6f3;
+        --surface: #ffffff;
+        --text: #0b0b0b;
+        --text-2: #52514e;
+        --border: rgba(11, 11, 11, 0.12);
+        --border-strong: rgba(11, 11, 11, 0.22);
+        --accent-ink: #1c5cab;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:where(:not([data-theme="light"])) {
+          color-scheme: dark;
+          --page: #0d0d0d;
+          --surface: #1a1a19;
+          --text: #f0efec;
+          --text-2: #c3c2b7;
+          --border: rgba(255, 255, 255, 0.12);
+          --border-strong: rgba(255, 255, 255, 0.24);
+          --accent-ink: #86b6ef;
+        }
+      }
+      :root[data-theme="dark"] {
+        color-scheme: dark;
+        --page: #0d0d0d;
+        --surface: #1a1a19;
+        --text: #f0efec;
+        --text-2: #c3c2b7;
+        --border: rgba(255, 255, 255, 0.12);
+        --border-strong: rgba(255, 255, 255, 0.24);
+        --accent-ink: #86b6ef;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--text);
+        font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif;
+        line-height: 1.7;
+      }
+      main {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 40px 16px 64px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 6px;
+      }
+      .lead {
+        color: var(--text-2);
+        margin: 0 0 28px;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 12px;
+      }
+      a.card {
+        display: grid;
+        gap: 6px;
+        padding: 18px 20px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        color: inherit;
+        text-decoration: none;
+      }
+      a.card:hover {
+        border-color: var(--border-strong);
+      }
+      a.card:focus-visible {
+        outline: 2px solid var(--accent-ink);
+        outline-offset: 2px;
+      }
+      .name {
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--accent-ink);
+      }
+      .desc {
+        color: var(--text-2);
+        font-size: 15px;
+      }
+      .src {
+        font-size: 13px;
+        color: var(--text-2);
+      }
+      footer {
+        margin-top: 40px;
+        font-size: 13px;
+        color: var(--text-2);
+      }
+      footer a {
+        color: var(--accent-ink);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>open-data-lab</h1>
+      <p class="lead">オープンデータを集めて、分野を絞って検索・可視化するサイトの実験場です。どれも公開データから毎日自動で更新しています。</p>
+      <div class="projects">
+        <a class="card" href="subsidy-finder/">
+          <span class="name">北海道 補助金ファインダー</span>
+          <span class="desc">北海道の事業者が使える補助金・助成金を、締切の近い順に。利用目的・業種・従業員数で絞り込めます。</span>
+          <span class="src">データ：Jグランツ（デジタル庁）、北海道ホームページ</span>
+        </a>
+        <a class="card" href="diet-tracker/">
+          <span class="name">国会議論トラッカー</span>
+          <span class="desc">物価高・賃上げ・生成AI・北海道など、テーマごとの国会での発言数の推移と、新しい法律の審議経過。</span>
+          <span class="src">データ：国会会議録検索システム（国立国会図書館）、e-Gov法令検索</span>
+        </a>
+      </div>
+      <footer>
+        個人が運営する非公式のサイトです。ソースコード：<a href="https://github.com/cum38898/open-data-lab">github.com/cum38898/open-data-lab</a>
+      </footer>
+    </main>
+  </body>
+</html>

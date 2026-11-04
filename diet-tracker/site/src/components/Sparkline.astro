@@ -1,0 +1,26 @@
+---
+// テーマ一覧のカードに添える小さな推移線（月別の発言数）。数値はカード本文と表に出すので装飾扱い。
+interface Props {
+  values: number[];
+  pendingCount?: number; // 末尾のこの数の月は公開待ちとして点線にする
+}
+const { values, pendingCount = 0 } = Astro.props;
+const W = 240;
+const H = 36;
+const pad = 4;
+const max = Math.max(1, ...values);
+const n = values.length;
+const x = (i: number) => pad + (i * (W - pad * 2)) / Math.max(1, n - 1);
+const y = (v: number) => H - pad - (v / max) * (H - pad * 2);
+const solidEnd = Math.max(1, n - pendingCount);
+const pts = values.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`);
+const solid = pts.slice(0, solidEnd).join(" ");
+const dashed = pts.slice(solidEnd - 1).join(" ");
+const area = `${pad},${H - pad} ${pts.slice(0, solidEnd).join(" ")} ${x(solidEnd - 1).toFixed(1)},${H - pad}`;
+---
+
+<svg class="spark" viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" aria-hidden="true">
+  <polygon class="area" points={area}></polygon>
+  <polyline class="line" points={solid} vector-effect="non-scaling-stroke"></polyline>
+  {pendingCount > 0 && <polyline class="line" points={dashed} stroke-dasharray="3 3" opacity="0.6" vector-effect="non-scaling-stroke" />}
+</svg>

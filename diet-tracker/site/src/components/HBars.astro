@@ -1,0 +1,112 @@
+---
+// 横棒グラフ（1系列）。項目名が長い日本語でもスマホで読めるよう HTML/CSS で描く。
+// 各行は検索ページの絞り込みへのリンクにでき、ホバー／フォーカスで値を出す。
+export interface BarItem {
+  label: string;
+  value: number;
+  href?: string;
+}
+interface Props {
+  items: BarItem[];
+  unit?: string;
+  caption: string;
+}
+const { items, unit = "件", caption } = Astro.props;
+const max = Math.max(1, ...items.map((i) => i.value));
+---
+
+<div class="hbars chart" role="group" aria-label={caption}>
+  {
+    items.map((it) => {
+      const pct = (it.value / max) * 100;
+      const Tag = it.href ? "a" : "div";
+      return (
+        <Tag
+          class="hbar-row"
+          href={it.href}
+          data-tip-value={`${it.value.toLocaleString("ja-JP")}${unit}`}
+          data-tip-label={it.label}
+          tabindex={it.href ? undefined : 0}
+          aria-label={`${it.label}：${it.value}${unit}`}
+        >
+          <span class="hbar-label">{it.label}</span>
+          <span class="hbar-track">
+            <span class="hbar-bar" style={`width:calc((100% - 3.5em) * ${(Math.max(pct, 0.8) / 100).toFixed(4)})`} />
+            <span class="hbar-value">{it.value.toLocaleString("ja-JP")}</span>
+          </span>
+        </Tag>
+      );
+    })
+  }
+</div>
+<details class="table-view">
+  <summary>表で見る</summary>
+  <table class="data-table">
+    <caption class="small muted" style="text-align:left">{caption}</caption>
+    <thead><tr><th>項目</th><th class="num">{unit}数</th></tr></thead>
+    <tbody>
+      {items.map((it) => <tr><td>{it.label}</td><td class="num">{it.value.toLocaleString("ja-JP")}</td></tr>)}
+    </tbody>
+  </table>
+</details>
+
+<style>
+  .hbars {
+    display: grid;
+    gap: 2px;
+  }
+  .hbar-row {
+    display: grid;
+    grid-template-columns: minmax(8em, 16em) minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 5px 6px;
+    margin: 0 -6px;
+    border-radius: 6px;
+    color: inherit;
+    text-decoration: none;
+  }
+  a.hbar-row:hover,
+  .hbar-row:focus-visible {
+    background: var(--surface-2);
+  }
+  .hbar-row:hover .hbar-bar,
+  .hbar-row:focus-visible .hbar-bar {
+    background: var(--series-1-hover);
+  }
+  .hbar-label {
+    font-size: 14px;
+    color: var(--text-2);
+    line-height: 1.4;
+  }
+  a.hbar-row .hbar-label {
+    color: var(--accent-ink);
+  }
+  .hbar-track {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+  .hbar-bar {
+    display: block;
+    height: 16px;
+    background: var(--series-1);
+    border-radius: 0 4px 4px 0;
+    flex: none;
+  }
+  .hbar-value {
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  @media (max-width: 560px) {
+    .hbar-row {
+      grid-template-columns: 1fr;
+      gap: 4px;
+      padding: 6px;
+    }
+  }
+</style>

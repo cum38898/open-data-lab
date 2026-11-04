@@ -1,0 +1,91 @@
+---
+import Base from "../layouts/Base.astro";
+import Sparkline from "../components/Sparkline.astro";
+import { formatJpDate, loadAll } from "../lib/data";
+import { monthLabel, RECENT_DAYS, topicStats } from "../lib/stats";
+
+const { categories, topics, laws, since } = loadAll();
+const now = Date.now();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const stats = new Map(topics.map((t) => [t.id, topicStats(t, now)]));
+const uniqueSpeeches = new Set(topics.flatMap((t) => t.rows.map((r) => r[0]))).size;
+const recentLaws = [...laws].sort((a, b) => b.promulgated.localeCompare(a.promulgated)).slice(0, 5);
+const [sy, sm] = since.split("-").map(Number);
+---
+
+<Base current="topics">
+  <h1>国会でいま、何がどれだけ議論されているか</h1>
+  <p class="lead">
+    テーマごとに、国会の会議録で検索語を含む発言の数を毎日集計しています（{sy}年{sm}月以降）。カードを開くと、月ごとの推移・会派別・委員会別の内訳と最近の発言が見られます。
+  </p>
+
+  <section class="tiles" aria-label="概要">
+    <div class="card tile"><p class="label">集計しているテーマ</p><p class="value">{topics.length}<small>テーマ</small></p></div>
+    <div class="card tile">
+      <p class="label">対象の発言（重複なし）</p><p class="value">{uniqueSpeeches.toLocaleString("ja-JP")}<small>件</small></p>
+    </div>
+    <div class="card tile">
+      <p class="label">2025年以降に公布された新しい法律</p><p class="value">{laws.length}<small>本</small></p>
+    </div>
+  </section>
+
+  {
+    categories.map((c) => {
+      const list = topics.filter((t) => t.category === c.id);
+      if (!list.length) return null;
+      return (
+        <section aria-labelledby={`cat-${c.id}`}>
+          <div class="category-head">
+            <h2 id={`cat-${c.id}`}>{c.label}</h2>
+          </div>
+          <div class="topic-grid">
+            {list.map((t) => {
+              const s = stats.get(t.id)!;
+              return (
+                <a class="card topic-card" href={`${base}/topics/${t.id}/`}>
+                  <span class="name">{t.label}</span>
+                  <span class="nums">
+                    <span>
+                      <b>{s.total.toLocaleString("ja-JP")}</b> 件
+                    </span>
+                    <span>直近{RECENT_DAYS}日 {s.recent.toLocaleString("ja-JP")}件</span>
+                  </span>
+                  <Sparkline values={s.buckets.map((b) => b.total)} pendingCount={s.pendingCount} />
+                  <span class="small muted">
+                    最多は{s.peak ? `${monthLabel(s.peak.month)}（${s.peak.total.toLocaleString("ja-JP")}件）` : "—"}
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      );
+    })
+  }
+
+  <section aria-labelledby="laws-head">
+    <div class="category-head">
+      <h2 id="laws-head">最近公布された新しい法律</h2>
+      <a class="small" href={`${base}/laws/`}>すべて見る</a>
+    </div>
+    <ul class="law-list">
+      {
+        recentLaws.map((l) => {
+          const shu = l.meetings.filter((m) => m.house === "衆").length;
+          const san = l.meetings.filter((m) => m.house === "参").length;
+          return (
+            <li class="card law">
+              <h3><a href={`${base}/laws/${l.law_id}/`}>{l.title}</a></h3>
+              <p class="meta">
+                <span>{formatJpDate(l.promulgated)}公布</span>
+                <span>
+                  審議した会議 <b>{l.meetings.length}</b>回（衆{shu}・参{san}）
+                </span>
+              </p>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </section>
+</Base>

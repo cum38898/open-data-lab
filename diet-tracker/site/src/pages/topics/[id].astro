@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import MonthlyChart from "../../components/MonthlyChart.astro";
+import HBars from "../../components/HBars.astro";
+import ChartTooltip from "../../components/ChartTooltip.astro";
+import { formatJpDate, loadAll, queryLabel, speechUrl, type Topic } from "../../lib/data";
+import { speakerClass } from "../../lib/groups";
+import { monthLabel, RECENT_DAYS, topicStats } from "../../lib/stats";
+
+export function getStaticPaths() {
+  return loadAll().topics.map((t) => ({ params: { id: t.id }, props: { topic: t } }));
+}
+interface Props {
+  topic: Topic;
+}
+const { topic: t } = Astro.props;
+const { categories, since } = loadAll();
+const now = Date.now();
+const s = topicStats(t, now);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const category = categories.find((c) => c.id === t.category);
+const recent = t.rows.filter((r) => t.snippets[r[0]]).slice(0, 20);
+const topMeetings = s.meetings.slice(0, 10);
+const HOUSE_NAME: Record<string, string> = { 衆: "衆議院", 参: "参議院", 両: "両院" };
+const [sy, sm] = since.split("-").map(Number);
+---
+
+<Base title={`「${t.label}」の国会での議論`} description={`${queryLabel(t.queries)}を含む国会での発言数の推移、会派別・委員会別の内訳、最近の発言。`}>
+  <p class="breadcrumb"><a href={`${base}/`}>テーマ</a> ／ {category?.label}</p>
+  <h1>{t.label}</h1>
+  <p class="lead">{queryLabel(t.queries)}を含む国会での発言（{sy}年{sm}月以降）。</p>
+
+  <section class="tiles" aria-label="概要">
+    <div class="card tile"><p class="label">発言数</p><p class="value">{s.total.toLocaleString("ja-JP")}<small>件</small></p></div>
+    <div class="card tile"><p class="label">直近{RECENT_DAYS}日</p><p class="value">{s.recent.toLocaleString("ja-JP")}<small>件</small></p></div>
+    <div class="card tile">
+      <p class="label">いちばん多かった月</p>
+      <p class="value">{s.peak ? monthLabel(s.peak.month) : "—"}<small>{s.peak ? `${s.peak.total.toLocaleString("ja-JP")}件` : ""}</small></p>
+    </div>
+  </section>
+
+  <section class="card chart-card">
+    <h2>月ごとの発言数</h2>
+    <p class="sub">1つの発言に検索語が何回出てきても1件と数えています。</p>
+    <MonthlyChart buckets={s.buckets} pendingFrom={s.pendingFrom} caption={`「${t.label}」を含む発言の月別件数`} />
+  </section>
+
+  <div class="two-col">
+    <section class="card chart-card">
+      <h2>会派・立場別</h2>
+      <p class="sub">議長・委員長の議事進行と、大臣などの答弁は会派とは分けて数えています。</p>
+      <HBars items={s.classes} caption={`「${t.label}」を含む発言の会派・立場別件数`} />
+    </section>
+    <section class="card chart-card">
+      <h2>よく議論された会議</h2>
+      <p class="sub">発言数の多い会議（上位10）。</p>
+      <HBars items={topMeetings} caption={`「${t.label}」を含む発言の会議別件数（上位10）`} />
+    </section>
+  </div>
+
+  <h2>最近の発言</h2>
+  <p class="small muted">検索語の前後だけを抜き出しています。全文は国会会議録検索システムでご覧ください。</p>
+  <ul class="speech-list">
+    {
+      recent.map((r) => (
+        <li class="card speech">
+          <p class="head">
+            <span><b>{formatJpDate(r[1])}</b></span>
+            <span>{HOUSE_NAME[r[2]] ?? r[2]} {r[3]}</span>
+            <span>{r[4]}（{r[6] && /大臣|政務官|長官|議長|委員長/.test(r[6]) ? r[6] : speakerClass(r[5], r[6])}）</span>
+          </p>
+          <blockquote>{t.snippets[r[0]]}</blockquote>
+          <a class="src" href={speechUrl(r[0])} rel="noopener">会議録で全文を読む</a>
+        </li>
+      ))
+    }
+  </ul>
+  {recent.length === 0 && <p class="card empty">まだ発言のデータがありません。</p>}
+
+  <ChartTooltip />
+</Base>

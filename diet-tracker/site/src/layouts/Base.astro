@@ -1,0 +1,73 @@
+---
+import "../styles/global.css";
+import { loadAll } from "../lib/data";
+
+interface Props {
+  title?: string;
+  description?: string;
+  current?: "topics" | "laws" | "about";
+}
+const { title, description, current } = Astro.props;
+const SITE_NAME = "国会議論トラッカー";
+const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜国会でいま何がどれだけ議論されているか`;
+const desc =
+  description ??
+  "物価高・賃上げ・生成AI・北海道など、テーマごとに国会での発言数の推移を国会会議録から集計。新しく公布された法律がいつ・どの委員会で審議されたかもたどれます。";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const { fetchedAt } = loadAll();
+const [uy, um, ud] = (fetchedAt || "").slice(0, 10).split("-").map(Number);
+const updatedLabel = fetchedAt ? `${uy}年${um}月${ud}日` : "—";
+const canonical = new URL(Astro.url.pathname, Astro.site);
+// open-data-lab のトップ（各プロジェクトは /open-data-lab/<project>/ に置く）
+const labTop = base.replace(/\/[^/]+$/, "/") || "/";
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={`${base}/`}>
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m4 10V6m4 14v-8m4 8V8m4 12V4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+          <span>{SITE_NAME}</span>
+        </a>
+        <nav class="nav" aria-label="メイン">
+          <a href={`${base}/`} aria-current={current === "topics" ? "page" : undefined}>テーマ</a>
+          <a href={`${base}/laws/`} aria-current={current === "laws" ? "page" : undefined}>新しい法律</a>
+          <a href={`${base}/about/`} aria-current={current === "about" ? "page" : undefined}>このサイトについて</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p><a href={labTop}>open-data-lab のほかのプロジェクト</a></p>
+        <p>
+          データ更新：{updatedLabel}（毎日自動更新）。発言の件数は、国会会議録の本文に検索語を含む発言を数えたものです。会議録は公開まで日数がかかるため、直近の数字は少なめに出ます。
+        </p>
+        <p>
+          出典：<a href="https://kokkai.ndl.go.jp/" rel="noopener">国会会議録検索システム（国立国会図書館）</a>、<a
+            href="https://laws.e-gov.go.jp/"
+            rel="noopener">e-Gov法令検索（デジタル庁）</a
+          >。<a href={`${base}/about/`}>集計方法と利用条件</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
