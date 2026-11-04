@@ -1,0 +1,24 @@
+---
+// 発言1件の抜粋。全文は会議録へのリンクで読んでもらう
+import { formatJpDate, speechUrl, type Row } from "../lib/data";
+import { speakerClass } from "../lib/groups";
+
+interface Props {
+  row: Row;
+  snippet: string;
+}
+const { row: r, snippet } = Astro.props;
+const HOUSE_NAME: Record<string, string> = { 衆: "衆議院", 参: "参議院", 両: "両院" };
+// 大臣・委員長などは肩書きを、議員は会派を添える
+const role = r[6] && /大臣|政務官|長官|議長|委員長/.test(r[6]) ? r[6] : speakerClass(r[5], r[6]);
+---
+
+<li class="card speech">
+  <p class="head">
+    <span><b>{formatJpDate(r[1])}</b></span>
+    <span>{HOUSE_NAME[r[2]] ?? r[2]} {r[3]}</span>
+    <span>{r[4]}（{role}）</span>
+  </p>
+  <blockquote>{snippet}</blockquote>
+  <a class="src" href={speechUrl(r[0])} rel="noopener">会議録で全文を読む</a>
+</li>

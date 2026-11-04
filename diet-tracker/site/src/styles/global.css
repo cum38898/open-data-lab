@@ -947,3 +947,12 @@ details.table-view summary {
   border: 1px solid var(--border-strong);
   border-radius: 8px;
 }
+details.more-speeches {
+  margin-top: 10px;
+}
+details.more-speeches > summary {
+  cursor: pointer;
+  color: var(--accent-ink);
+  padding: 8px 0;
+  font-size: 15px;
+}
