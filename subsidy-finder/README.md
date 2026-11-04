@@ -74,10 +74,4 @@ cd site && npm test
 
 ## 公開（GitHub Pages）
 
-`.github/workflows/subsidy-finder.yml` が次を行います。
-
-- **毎日 05:17（日本時間）と手動実行**：データを取得 → キャッシュをコミット → ビルド → GitHub Pages に公開
-- **main への push**：コミット済みのデータでビルドして公開
-- **プルリクエスト**：テストとビルドだけ
-
-初回だけ、リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にしてください。公開先は `https://<ユーザー名>.github.io/open-data-lab/` です。
+リポジトリ全体のワークフロー `.github/workflows/site.yml` で、毎日 05:17（日本時間）にデータを取得し、`https://<ユーザー名>.github.io/open-data-lab/subsidy-finder/` に公開します。詳しくはリポジトリ直下の README を見てください。

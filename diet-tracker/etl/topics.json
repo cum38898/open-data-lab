@@ -1,0 +1,31 @@
+{
+ "since": "2023-01-01",
+ "categories": [
+  {"id": "economy", "label": "経済・暮らし"},
+  {"id": "society", "label": "社会・制度"},
+  {"id": "tech", "label": "技術・産業"},
+  {"id": "security", "label": "安全保障・エネルギー"},
+  {"id": "hokkaido", "label": "北海道"}
+ ],
+ "topics": [
+  {"id": "bukkadaka", "label": "物価高", "category": "economy", "queries": ["物価高"]},
+  {"id": "chinage", "label": "賃上げ", "category": "economy", "queries": ["賃上げ"]},
+  {"id": "enyasu", "label": "円安", "category": "economy", "queries": ["円安"]},
+  {"id": "invoice", "label": "インボイス制度", "category": "economy", "queries": ["インボイス"]},
+  {"id": "shoshika", "label": "少子化", "category": "society", "queries": ["少子化"]},
+  {"id": "gaikokujin", "label": "外国人労働者・育成就労", "category": "society", "queries": ["外国人労働者", "育成就労"]},
+  {"id": "mynahoken", "label": "マイナ保険証", "category": "society", "queries": ["マイナ保険証"]},
+  {"id": "genai", "label": "生成AI", "category": "tech", "queries": ["生成AI"]},
+  {"id": "handotai", "label": "半導体", "category": "tech", "queries": ["半導体"]},
+  {"id": "rideshare", "label": "ライドシェア", "category": "tech", "queries": ["ライドシェア"]},
+  {"id": "boeihi", "label": "防衛費", "category": "security", "queries": ["防衛費"]},
+  {"id": "genpatsu", "label": "原発", "category": "security", "queries": ["原発"]},
+  {"id": "yojofuryoku", "label": "洋上風力", "category": "security", "queries": ["洋上風力"]},
+  {"id": "hokkaido", "label": "北海道", "category": "hokkaido", "queries": ["北海道"]},
+  {"id": "rapidus", "label": "ラピダス", "category": "hokkaido", "queries": ["ラピダス"]},
+  {"id": "jrhokkaido", "label": "JR北海道", "category": "hokkaido", "queries": ["JR北海道"]},
+  {"id": "hoppo", "label": "北方領土", "category": "hokkaido", "queries": ["北方領土"]},
+  {"id": "ainu", "label": "アイヌ", "category": "hokkaido", "queries": ["アイヌ"]},
+  {"id": "kuma", "label": "クマ被害", "category": "hokkaido", "queries": ["クマ被害", "ヒグマ"]}
+ ]
+}

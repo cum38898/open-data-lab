@@ -1,0 +1,88 @@
+---
+import Base from "../../layouts/Base.astro";
+import { formatJpDate, loadAll } from "../../lib/data";
+
+const { laws } = loadAll();
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const sorted = [...laws].sort((a, b) => b.promulgated.localeCompare(a.promulgated) || a.title.localeCompare(b.title));
+const categories = [...new Set(sorted.map((l) => l.category).filter(Boolean))] as string[];
+---
+
+<Base title="新しい法律の審議経過" current="laws" description="2025年以降に公布された新しい法律が、国会のどの会議で、いつ審議されたかを一覧できます。">
+  <h1>新しい法律の審議経過</h1>
+  <p class="lead">
+    2025年以降に公布された新しい法律（一部改正の法律は含みません）を、e-Gov法令検索から集めています。題名を含む会議を国会会議録で探し、審議の流れをたどれるようにしました。
+  </p>
+
+  <form class="filter-row" id="law-filter" role="search" onsubmit="return false">
+    <div class="field">
+      <label for="lq">題名で絞り込む</label>
+      <input id="lq" type="search" placeholder="例：防災、地域、医療" autocomplete="off" />
+    </div>
+    <div class="field" style="flex:0 1 220px">
+      <label for="lc">分野</label>
+      <select id="lc">
+        <option value="">すべて</option>
+        {categories.map((c) => <option value={c}>{c}</option>)}
+      </select>
+    </div>
+  </form>
+  <p class="result-count" id="law-count" aria-live="polite">{sorted.length}本</p>
+
+  <ul class="law-list" id="laws">
+    {
+      sorted.map((l) => {
+        const shu = l.meetings.filter((m) => m.house === "衆").length;
+        const san = l.meetings.filter((m) => m.house === "参").length;
+        const first = l.meetings[0]?.date;
+        const last = l.meetings[l.meetings.length - 1]?.date;
+        return (
+          <li class="card law" data-title={l.title.normalize("NFKC")} data-category={l.category ?? ""}>
+            <h3>
+              <a href={`${base}/laws/${l.law_id}/`}>{l.title}</a>
+            </h3>
+            <p class="meta">
+              <span>{l.num}</span>
+              <span>{formatJpDate(l.promulgated)}公布</span>
+              {l.category && <span>{l.category}</span>}
+            </p>
+            <p class="meta">
+              {l.meetings.length > 0 ? (
+                <>
+                  <span>
+                    審議した会議 <b>{l.meetings.length}</b>回（衆議院{shu}・参議院{san}）
+                  </span>
+                  <span>
+                    {formatJpDate(first!)}〜{formatJpDate(last!)}
+                  </span>
+                </>
+              ) : (
+                <span>会議録で題名を含む会議が見つかりませんでした</span>
+              )}
+            </p>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  <script>
+    const q = document.getElementById("lq") as HTMLInputElement;
+    const c = document.getElementById("lc") as HTMLSelectElement;
+    const count = document.getElementById("law-count")!;
+    const items = [...document.querySelectorAll<HTMLElement>("#laws > li")];
+    function apply() {
+      const terms = q.value.normalize("NFKC").split(/\s+/).filter(Boolean);
+      let n = 0;
+      for (const li of items) {
+        const ok =
+          terms.every((t) => (li.dataset.title ?? "").includes(t)) && (!c.value || li.dataset.category === c.value);
+        li.hidden = !ok;
+        if (ok) n++;
+      }
+      count.textContent = `${n}本`;
+    }
+    q.addEventListener("input", apply);
+    c.addEventListener("change", apply);
+  </script>
+</Base>

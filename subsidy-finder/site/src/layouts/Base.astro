@@ -19,6 +19,8 @@ const { generated_at } = loadDataset();
 const [uy, um, ud] = generated_at.slice(0, 10).split("-").map(Number);
 const updatedLabel = `${uy}年${um}月${ud}日`;
 const canonical = new URL(Astro.url.pathname, Astro.site);
+// open-data-lab のトップ（各プロジェクトは /open-data-lab/<project>/ に置く）
+const labTop = base.replace(/\/[^/]+$/, "/") || "/";
 ---
 
 <!doctype html>
@@ -56,6 +58,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     </main>
     <footer class="site-footer">
       <div class="wrap">
+        <p><a href={labTop}>open-data-lab のほかのプロジェクト</a></p>
         <p>
           データ更新：{updatedLabel}（毎日自動更新）。掲載内容は公開情報を自動で集めたものです。申請の前に、必ずリンク先の公式情報をご確認ください。
         </p>

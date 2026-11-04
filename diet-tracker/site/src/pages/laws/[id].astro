@@ -1,0 +1,194 @@
+---
+import Base from "../../layouts/Base.astro";
+import ChartTooltip from "../../components/ChartTooltip.astro";
+import { formatJpDate, loadAll, meetingUrl, type Law } from "../../lib/data";
+
+export function getStaticPaths() {
+  return loadAll().laws.map((l) => ({ params: { id: l.law_id }, props: { law: l } }));
+}
+interface Props {
+  law: Law;
+}
+const { law: l } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const HOUSE_NAME: Record<string, string> = { 衆: "衆議院", 参: "参議院", 両: "両院" };
+
+// 審議の流れ：最初の会議から公布日までを横軸にとり、院ごとに会議を点で置く
+const start = l.meetings[0]?.date ?? l.promulgated;
+const end = l.promulgated;
+const t0 = Date.parse(start);
+const span = Math.max(1, Date.parse(end) - t0);
+const pos = (d: string) => ((Date.parse(d) - t0) / span) * 100;
+const rows = ["衆", "参"].map((h) => ({ house: h, meetings: l.meetings.filter((m) => m.house === h) }));
+const months: string[] = [];
+{
+  const d = new Date(t0);
+  d.setUTCDate(1);
+  d.setUTCMonth(d.getUTCMonth() + 1);
+  while (d.getTime() <= Date.parse(end)) {
+    months.push(d.toISOString().slice(0, 10));
+    d.setUTCMonth(d.getUTCMonth() + 1);
+  }
+}
+---
+
+<Base title={l.title} description={`${l.title}（${l.num}）が国会のどの会議で審議されたか。`}>
+  <p class="breadcrumb"><a href={`${base}/laws/`}>新しい法律</a> ／ {l.category ?? "法律"}</p>
+  <h1>{l.title}</h1>
+  <p class="lead">
+    {l.num}・{formatJpDate(l.promulgated)}公布{l.abbrev ? `（略称：${l.abbrev}）` : ""}。<a
+      href={`https://laws.e-gov.go.jp/law/${l.law_id}`}
+      rel="noopener">e-Gov法令検索で条文を読む</a
+    >
+  </p>
+
+  {
+    l.meetings.length > 0 ? (
+      <>
+        <section class="card chart-card">
+          <h2>審議の流れ</h2>
+          <p class="sub">
+            題名を含む会議を、院ごとに日付の位置へ並べました（最初の会議〜公布日）。点にカーソルを合わせると会議名が出ます。
+          </p>
+          <div class="timeline chart" role="group" aria-label="審議の流れ">
+            {rows.map((row) => (
+              <div class="tl-row">
+                <span class="tl-house">{HOUSE_NAME[row.house]}</span>
+                <span class="tl-track">
+                  {months.map((m) => (
+                    <span class="tl-month" style={`left:${pos(m)}%`} aria-hidden="true" />
+                  ))}
+                  {row.meetings.map((m) => (
+                    <span
+                      class={`tl-dot h-${row.house}`}
+                      style={`left:${pos(m.date)}%`}
+                      tabindex="0"
+                      data-tip-value={formatJpDate(m.date)}
+                      data-tip-label={`${m.meeting} ${m.issue}（該当する発言 ${m.speeches}件）`}
+                      aria-label={`${formatJpDate(m.date)} ${HOUSE_NAME[row.house]} ${m.meeting}`}
+                    />
+                  ))}
+                  <span class="tl-end" style="left:100%" aria-hidden="true" />
+                </span>
+              </div>
+            ))}
+            <div class="tl-axis" aria-hidden="true">
+              <span style="left:0">{formatJpDate(start)}</span>
+              <span style="left:100%;transform:translateX(-100%)">公布 {formatJpDate(end)}</span>
+            </div>
+          </div>
+        </section>
+
+        <h2>審議した会議</h2>
+        <div class="card" style="overflow-x:auto">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>開催日</th>
+                <th>院</th>
+                <th>会議</th>
+                <th class="num">該当する発言</th>
+                <th>会議録</th>
+              </tr>
+            </thead>
+            <tbody>
+              {l.meetings.map((m) => (
+                <tr>
+                  <td style="white-space:nowrap">{formatJpDate(m.date)}</td>
+                  <td>{HOUSE_NAME[m.house] ?? m.house}</td>
+                  <td>
+                    {m.meeting} {m.issue}
+                  </td>
+                  <td class="num">{m.speeches}</td>
+                  <td>
+                    <a href={meetingUrl(m.issueID)} rel="noopener">
+                      開く
+                    </a>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p class="small muted">
+          「該当する発言」は、その会議で法律の題名（法律案の名前）を含む発言の数です。議題の読み上げなど議事進行の発言も含みます。
+        </p>
+      </>
+    ) : (
+      <p class="card notice">
+        会議録で、この法律の題名を含む会議が見つかりませんでした。法律案のときの名前が題名と違う、または会議録の公開前の可能性があります。
+      </p>
+    )
+  }
+
+  <ChartTooltip />
+</Base>
+
+<style>
+  .timeline {
+    padding: 8px 0 4px;
+  }
+  .tl-row {
+    display: grid;
+    grid-template-columns: 4.5em minmax(0, 1fr);
+    align-items: center;
+    gap: 8px;
+    height: 44px;
+  }
+  .tl-house {
+    font-size: 13px;
+    color: var(--text-2);
+  }
+  .tl-track {
+    position: relative;
+    height: 100%;
+    border-bottom: 1px solid var(--baseline);
+    margin-right: 6px;
+  }
+  .tl-month {
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    border-left: 1px solid var(--grid);
+  }
+  .tl-end {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    border-left: 2px solid var(--text-2);
+  }
+  .tl-dot {
+    position: absolute;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    margin: -6px 0 0 -6px;
+    border-radius: 50%;
+    background: var(--series-1);
+    box-shadow: 0 0 0 2px var(--surface);
+    cursor: default;
+  }
+  .tl-dot.h-参 {
+    background: var(--series-2);
+  }
+  .tl-dot::after {
+    content: "";
+    position: absolute;
+    inset: -8px;
+  }
+  .tl-dot:hover,
+  .tl-dot:focus-visible {
+    transform: scale(1.3);
+  }
+  .tl-axis {
+    position: relative;
+    height: 20px;
+    margin: 6px 6px 0 calc(4.5em + 8px);
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .tl-axis span {
+    position: absolute;
+    white-space: nowrap;
+  }
+</style>
