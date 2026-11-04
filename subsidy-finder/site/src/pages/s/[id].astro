@@ -1,0 +1,177 @@
+---
+import Base from "../../layouts/Base.astro";
+import StatusChip from "../../components/StatusChip.astro";
+import ResultCard from "../../components/ResultCard.astro";
+import { areaLabel, loadDataset, SCOPE_LABEL, type SubsidyRecord } from "../../lib/data";
+import { daysLeft, formatDate, formatYen, statusOf } from "../../lib/status";
+
+export function getStaticPaths() {
+  return loadDataset().records.map((r) => ({ params: { id: r.id }, props: { record: r } }));
+}
+
+interface Props {
+  record: SubsidyRecord;
+}
+const { record: r } = Astro.props;
+const { records, sources } = loadDataset();
+const now = Date.now();
+const status = statusOf(r, now);
+const left = daysLeft(r.end, now);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const source = sources[r.source];
+
+// 関連：同じ利用目的（道庁分は同じ分野）で受付中・受付予定のもの
+const related = records
+  .filter((x) => x.id !== r.id && statusOf(x, now) !== "closed")
+  .map((x) => {
+    let score = x.purposes.filter((p) => r.purposes.includes(p)).length;
+    if (r.field && x.field === r.field) score += 2;
+    if (r.municipality && x.municipality === r.municipality) score += 3;
+    return { x, score };
+  })
+  .filter((s) => s.score > 0)
+  .sort((a, b) => b.score - a.score || (a.x.end ?? "9").localeCompare(b.x.end ?? "9"))
+  .slice(0, 4)
+  .map((s) => s.x);
+
+const desc = (r.summary || r.body_text.slice(0, 110) || r.title).replace(/\s+/g, " ");
+const area = r.municipality ?? (r.scope === "national" ? "全国" : r.areas.join("・"));
+---
+
+<Base title={r.title} description={desc}>
+  <p class="breadcrumb"><a href={`${base}/`}>補助金を探す</a> ／ {SCOPE_LABEL[r.scope]}</p>
+  <div class="detail-head">
+    <StatusChip record={r} now={now} />
+    <span class="tag">{areaLabel(r)}</span>
+    {r.field && <span class="tag">{r.field}</span>}
+  </div>
+  <h1>{r.title}</h1>
+  {r.summary && <p class="lead">{r.summary}</p>}
+
+  <div class="detail-grid">
+    <div>
+      <dl class="card facts">
+        <div>
+          <dt>受付期間</dt>
+          <dd>
+            {r.start ? `${formatDate(r.start)} 〜 ` : ""}{r.end ? formatDate(r.end) : "公式ページで確認してください"}
+            {r.end_estimated && (
+              <div class="small muted">
+                ※締切はページ本文から自動で推定した日付です。必ず公式ページで確認してください。
+              </div>
+            )}
+          </dd>
+        </div>
+        {r.max_amount ? (
+          <div>
+            <dt>補助上限額</dt>
+            <dd>{formatYen(r.max_amount)}</dd>
+          </div>
+        ) : null}
+        {r.rate && (
+          <div>
+            <dt>補助率</dt>
+            <dd>{r.rate}</dd>
+          </div>
+        )}
+        <div>
+          <dt>対象地域</dt>
+          <dd>
+            {area}
+            {r.area_detail && <div class="small muted">{r.area_detail}</div>}
+          </dd>
+        </div>
+        {r.employees && (
+          <div>
+            <dt>従業員数</dt>
+            <dd>{r.employees}</dd>
+          </div>
+        )}
+        {r.purposes.length > 0 && (
+          <div>
+            <dt>利用目的</dt>
+            <dd class="tag-list">{r.purposes.map((p) => <a class="tag" href={`${base}/?purpose=${encodeURIComponent(p)}`}>{p}</a>)}</dd>
+          </div>
+        )}
+        {r.industries.length > 0 && (
+          <div>
+            <dt>対象業種</dt>
+            <dd>{r.industries.length >= 19 ? "業種の指定なし（全業種）" : r.industries.join("、")}</dd>
+          </div>
+        )}
+        {r.organization && (
+          <div>
+            <dt>実施機関</dt>
+            <dd>
+              {r.organization}
+              {r.contact && <div class="small muted">担当：{r.contact}</div>}
+            </dd>
+          </div>
+        )}
+        {r.program && r.program !== r.title && (
+          <div>
+            <dt>制度・予算名</dt>
+            <dd>{r.program}</dd>
+          </div>
+        )}
+        {r.attachments.length > 0 && (
+          <div>
+            <dt>公開資料</dt>
+            <dd>{r.attachments.join("、")}<div class="small muted">公式ページからダウンロードできます</div></dd>
+          </div>
+        )}
+      </dl>
+
+      {r.body_html && (
+        <>
+          <h2>概要</h2>
+          <section class="card body-html">
+            <Fragment set:html={r.body_html} />
+            <p class="credit">
+              {r.source === "jgrants"
+                ? "出典：Jグランツ（デジタル庁）公開API。表示用に書式を整えています。"
+                : "出典：北海道ホームページ（CC BY 4.0）。本サイトで本文を抜粋し、書式を整えています。"}
+              <a href={r.url} rel="noopener">元のページ</a>
+            </p>
+          </section>
+        </>
+      )}
+      {!r.body_html && r.license === "link-only" && (
+        <p class="notice">このページの本文は二次利用の条件が確認できないため掲載していません。公式ページをご覧ください。</p>
+      )}
+    </div>
+
+    <aside class="card side" aria-label="申請の確認">
+      {status === "open" && left !== null && (
+        <div>
+          <p class="small muted">締切まで{r.end_estimated ? "（推定）" : ""}</p>
+          <p class="deadline">{left === 0 ? "本日締切" : `あと${left}日`}</p>
+        </div>
+      )}
+      {status === "upcoming" && r.start && (
+        <div>
+          <p class="small muted">受付開始</p>
+          <p class="deadline">{formatDate(r.start)}</p>
+        </div>
+      )}
+      {status === "closed" && <p>この公募の受付は終了しています。次回の公募は公式ページや実施機関でご確認ください。</p>}
+      <a class="button" href={r.url} rel="noopener">公式ページで詳細を確認する</a>
+      <p class="small muted">
+        情報源：<a href={source?.url} rel="noopener">{source?.name}</a>
+        {r.updated && <>（ページ更新 {r.updated}）</>}
+      </p>
+      <p class="small muted">
+        掲載内容は公開情報を自動で集めたものです。要件や期限は変わることがあるため、申請の前に必ず公式情報をご確認ください。
+      </p>
+    </aside>
+  </div>
+
+  {related.length > 0 && (
+    <>
+      <h2>関連する受付中の補助金</h2>
+      <ul class="results">
+        {related.map((x) => <ResultCard record={x} now={now} />)}
+      </ul>
+    </>
+  )}
+</Base>

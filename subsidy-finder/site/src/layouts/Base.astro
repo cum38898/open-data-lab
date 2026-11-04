@@ -1,0 +1,72 @@
+---
+import "../styles/global.css";
+import { loadDataset } from "../lib/data";
+
+interface Props {
+  title?: string;
+  description?: string;
+  current?: "search" | "stats" | "about";
+}
+const { title, description, current } = Astro.props;
+const SITE_NAME = "北海道 補助金ファインダー";
+const pageTitle = title ? `${title}｜${SITE_NAME}` : `${SITE_NAME}｜北海道の事業者が使える補助金・助成金を検索`;
+const desc =
+  description ??
+  "北海道の事業者が使える補助金・助成金を、国（Jグランツ）と北海道庁の公開情報からまとめて検索できます。締切が近い順、利用目的・業種・従業員数で絞り込めます。";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const { generated_at } = loadDataset();
+// generated_at は JST（+09:00）の ISO 文字列。ビルド環境のタイムゾーンに左右されないよう文字列から作る
+const [uy, um, ud] = generated_at.slice(0, 10).split("-").map(Number);
+const updatedLabel = `${uy}年${um}月${ud}日`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={`${base}/`}>
+          <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 3 7v10l9 4.5 9-4.5V7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path><path d="M8 12.5l2.6 2.6L16 9.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          <span>北海道 補助金ファインダー</span>
+        </a>
+        <nav class="nav" aria-label="メイン">
+          <a href={`${base}/`} aria-current={current === "search" ? "page" : undefined}>探す</a>
+          <a href={`${base}/stats/`} aria-current={current === "stats" ? "page" : undefined}>傾向を見る</a>
+          <a href={`${base}/about/`} aria-current={current === "about" ? "page" : undefined}>このサイトについて</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          データ更新：{updatedLabel}（毎日自動更新）。掲載内容は公開情報を自動で集めたものです。申請の前に、必ずリンク先の公式情報をご確認ください。
+        </p>
+        <p>
+          出典：<a href="https://www.jgrants-portal.go.jp/" rel="noopener">Jグランツ（デジタル庁）</a>、<a
+            href="https://www.pref.hokkaido.lg.jp/news/joseiseido/"
+            rel="noopener">北海道ホームページ</a
+          >（<a href="https://creativecommons.org/licenses/by/4.0/deed.ja" rel="noopener">CC BY 4.0</a>）、総務省「全国地方公共団体コード」。
+          <a href={`${base}/about/`}>詳しくはこちら</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

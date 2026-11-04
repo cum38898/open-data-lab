@@ -1,0 +1,13 @@
+---
+import { chipFor } from "../lib/chip";
+import type { StatusInput } from "../lib/status";
+
+interface Props {
+  record: StatusInput;
+  now: number;
+}
+const { record, now } = Astro.props;
+const chip = chipFor(record, now);
+---
+
+<span class={`chip ${chip.cls}`} data-chip><span class="dot" aria-hidden="true"></span><span data-chip-text>{chip.text}</span></span>

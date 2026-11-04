@@ -1,0 +1,32 @@
+---
+import StatusChip from "./StatusChip.astro";
+import { areaLabel, type SubsidyRecord } from "../lib/data";
+import { formatDate, formatYen, statusOf } from "../lib/status";
+
+interface Props {
+  record: SubsidyRecord;
+  now: number;
+}
+const { record: r, now } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const status = statusOf(r, now);
+const scopeLabel = areaLabel(r);
+---
+
+<li class="card result" data-id={r.id} hidden={status === "closed" ? true : undefined}>
+  <div class="result-top">
+    <StatusChip record={r} now={now} />
+    <span class="tag">{scopeLabel}</span>
+    {r.field && <span class="tag">{r.field}</span>}
+  </div>
+  <h3><a href={`${base}/s/${r.id}/`}>{r.title}</a></h3>
+  {r.summary && <p class="summary">{r.summary}</p>}
+  <p class="meta">
+    {r.max_amount ? <span>上限 <b>{formatYen(r.max_amount)}</b></span> : null}
+    <span>
+      締切{r.end_estimated ? "（推定）" : ""} <b>{r.end ? formatDate(r.end) : "公式ページで確認"}</b>
+    </span>
+    {r.employees && !r.employees.includes("制約なし") ? <span>従業員 {r.employees}</span> : null}
+  </p>
+  {(r.organization || r.program) && <p class="org">{r.organization || r.program}</p>}
+</li>
