@@ -85,6 +85,11 @@
   box-sizing: border-box;
 }
 
+/* display を指定した要素でも hidden 属性で必ず隠れるようにする（絞り込み・ページ送りで使う） */
+[hidden] {
+  display: none !important;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
 }
