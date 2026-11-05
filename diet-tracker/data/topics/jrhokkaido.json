@@ -2,7 +2,7 @@
  "id": "jrhokkaido",
  "queries": ["JR北海道"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-04T13:28+09:00",
+ "fetched_at": "2026-11-05T09:58+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position"],
  "rows": [
   ["122104319X01320260722_017", "2026-07-22", "衆", "国土交通委員会", "金子恭之", "自由民主党・無所属の会", "国土交通大臣"],
