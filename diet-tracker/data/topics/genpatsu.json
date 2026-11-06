@@ -2,7 +2,7 @@
  "id": "genpatsu",
  "queries": ["原発"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-05T09:58+09:00",
+ "fetched_at": "2026-11-06T10:00+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position"],
  "rows": [
   ["122204006X00120261023_001", "2026-10-23", "衆", "環境委員会", "菅家一郎", "自由民主党・無所属の会", null],
