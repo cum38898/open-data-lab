@@ -2,7 +2,7 @@
  "id": "rideshare",
  "queries": ["ライドシェア"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-06T10:00+09:00",
+ "fetched_at": "2026-11-07T09:10+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position"],
  "rows": [
   ["122104006X01420260714_047", "2026-07-14", "衆", "環境委員会", "原田修吾", null, "国土交通省大臣官房審議官"],
