@@ -2,7 +2,7 @@
  "id": "hokkaido",
  "queries": ["北海道"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-09T07:48+09:00",
+ "fetched_at": "2026-11-09T08:49+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122204024X00520261027_001", "2026-10-27", "衆", "議院運営委員会", "坂本哲志", "自由民主党・無所属の会", null, 1],

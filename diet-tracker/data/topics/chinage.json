@@ -2,7 +2,7 @@
  "id": "chinage",
  "queries": ["賃上げ"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-09T07:47+09:00",
+ "fetched_at": "2026-11-09T08:48+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122214889X00120261022_055", "2026-10-22", "参", "内閣委員会", "川本裕子", null, "人事院総裁", 0],

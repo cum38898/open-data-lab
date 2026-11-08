@@ -2,7 +2,7 @@
  "id": "invoice",
  "queries": ["インボイス"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-09T07:47+09:00",
+ "fetched_at": "2026-11-09T08:48+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122105261X01720260727_093", "2026-07-27", "衆", "予算委員会", "長友慎治", "国民民主党・無所属クラブ", null, 0],
