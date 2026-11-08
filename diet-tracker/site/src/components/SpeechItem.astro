@@ -1,7 +1,7 @@
 ---
 // 発言1件の抜粋。全文は会議録へのリンクで読んでもらう
 import { formatJpDate, speechUrl, type Row } from "../lib/data";
-import { speakerClass } from "../lib/groups";
+import { CHAIR, isGovernmentPosition, speakerClass } from "../lib/groups";
 
 interface Props {
   row: Row;
@@ -9,8 +9,12 @@ interface Props {
 }
 const { row: r, snippet } = Astro.props;
 const HOUSE_NAME: Record<string, string> = { 衆: "衆議院", 参: "参議院", 両: "両院" };
-// 大臣・委員長などは肩書きを、議員は会派を添える
-const role = r[6] && /大臣|政務官|長官|議長|委員長/.test(r[6]) ? r[6] : speakerClass(r[5], r[6]);
+// 議長・委員長は「議長・委員長」、大臣や政府職員・参考人などは肩書き、議員は会派を添える
+const role = r[7]
+  ? CHAIR
+  : isGovernmentPosition(r[6]) || (!r[5] && r[6])
+    ? r[6]
+    : speakerClass(r[5], r[6], r[7]);
 ---
 
 <li class="card speech">

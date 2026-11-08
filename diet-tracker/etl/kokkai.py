@@ -16,7 +16,8 @@ from .common import DATA_DIR, Polite, http_get_json, log, now_jst_iso, read_json
 
 API = "https://kokkai.ndl.go.jp/api"
 TOPIC_DIR = DATA_DIR / "topics"
-COLUMNS = ["id", "date", "house", "meeting", "speaker", "group", "position"]
+# chair: 議長・委員長などが議事進行として行った発言なら 1（話者表示「○坂本委員長」などから判定）
+COLUMNS = ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"]
 SNIPPETS_PER_TOPIC = 40
 SNIPPET_BEFORE = 45
 SNIPPET_AFTER = 75
@@ -57,6 +58,21 @@ def make_snippet(text: str, terms: list[str]) -> str:
     return ("…" if start > 0 else "") + out + ("…" if end < len(flat) else "")
 
 
+# 会議の進行役の話者表示。委員会の委員長は API の肩書き（speakerPosition）が空で、
+# 本文冒頭の「○坂本委員長　」にだけ現れるので、取得のときに判定して保存する
+_SPEAKER_LABEL = re.compile(r"^○(\S+?)[　 ]")
+_CHAIR_LABEL = re.compile(r"^(?:議長|副議長|仮議長)|(?:委員長|委員長代理|会長|会長代理|小委員長|主査)$")
+
+
+def speaker_label(text: str) -> str:
+    m = _SPEAKER_LABEL.match(text or "")
+    return m.group(1) if m else ""
+
+
+def is_chair(text: str) -> bool:
+    return bool(_CHAIR_LABEL.search(speaker_label(text)))
+
+
 def to_row(rec: dict) -> list:
     return [
         rec["speechID"],
@@ -66,6 +82,7 @@ def to_row(rec: dict) -> list:
         (rec.get("speaker") or "").replace("　", " ").strip(),
         rec.get("speakerGroup"),
         rec.get("speakerPosition"),
+        1 if is_chair(rec.get("speech") or "") else 0,
     ]
 
 
@@ -89,7 +106,13 @@ def search_speeches(query: str, since: str, until: str | None = None):
 def fetch_topic(topic: dict, since_all: str) -> dict:
     path = TOPIC_DIR / f"{topic['id']}.json"
     cache = read_json(path, None)
-    full = cache is None or cache.get("queries") != topic["queries"] or cache.get("since") != since_all
+    # 検索語・期間・保存する列が変わったら全件を取り直す
+    full = (
+        cache is None
+        or cache.get("queries") != topic["queries"]
+        or cache.get("since") != since_all
+        or cache.get("columns") != COLUMNS
+    )
     rows: dict[str, list] = {} if full else {r[0]: r for r in cache["rows"]}
     snippets: dict[str, str] = {} if full else dict(cache.get("snippets", {}))
 
@@ -98,6 +121,10 @@ def fetch_topic(topic: dict, since_all: str) -> dict:
     else:
         latest = max((r[1] for r in rows.values()), default=since_all)
         since = max(since_all, (date.fromisoformat(latest) - timedelta(days=REFETCH_DAYS)).isoformat())
+        # 取り直す期間の分は、今回の検索結果で置き換える（会議録の訂正などで一致しなくなった発言を残さない）。
+        # 取得に失敗した場合は例外でこの関数を抜け、ファイルは書き換えないので前回分は失われない
+        rows = {k: r for k, r in rows.items() if r[1] < since}
+        snippets = {k: v for k, v in snippets.items() if k in rows}
 
     log(f"[{topic['id']}] {'full' if full else 'incremental'} from {since}")
     for q in topic["queries"]:

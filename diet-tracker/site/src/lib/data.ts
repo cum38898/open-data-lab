@@ -16,8 +16,8 @@ export interface TopicConfig {
   category: string;
   queries: string[];
 }
-/** [発言ID, 日付, 院, 会議名, 発言者, 会派, 肩書き] */
-export type Row = [string, string, string, string, string, string | null, string | null];
+/** [発言ID, 日付, 院, 会議名, 発言者, 会派, 肩書き, 議長・委員長の議事進行なら1] */
+export type Row = [string, string, string, string, string, string | null, string | null, number?];
 
 export interface Topic extends TopicConfig {
   rows: Row[];
@@ -137,7 +137,7 @@ const MAX_PARTIES = 10;
 
 /** 会派・立場別の件数。会派は多い順に最大10、それ以外は「その他・無所属」にまとめ、議員以外の区分は末尾に置く */
 export function byClass(rows: Row[]) {
-  const counts = countBy(rows, (r) => speakerClass(r[5], r[6]));
+  const counts = countBy(rows, (r) => speakerClass(r[5], r[6], r[7]));
   const parties = counts.filter((c) => !TRAILING_CLASSES.includes(c.label));
   const head = parties.slice(0, MAX_PARTIES);
   const folded = parties.slice(MAX_PARTIES).reduce((s, c) => s + c.value, 0);
