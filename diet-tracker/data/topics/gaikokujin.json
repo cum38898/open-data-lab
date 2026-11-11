@@ -2,7 +2,7 @@
  "id": "gaikokujin",
  "queries": ["外国人労働者", "育成就労"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-10T11:47+09:00",
+ "fetched_at": "2026-11-11T09:43+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122205007X00220261027_071", "2026-10-27", "衆", "農林水産委員会", "角田秀穂", "中道", null, 0],
