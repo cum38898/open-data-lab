@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T09:42+09:00",
+ "generated": "2026-11-12T11:01+09:00",
  "items": [
   {
    "id": "a0WJ200000CDOuuMAH",
@@ -26,11 +26,12 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDOuuMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業",
     "attachments": [
      "R8年度交付要綱（地域における再エネ等由来水素利活用促進事業）.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDQEJMA5",
@@ -57,9 +58,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDQEJMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "事業再構築補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ2000000qhOQMAY",
@@ -86,9 +88,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000qhOQMAY",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "事業再構築補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0W5h00000UbU66EAF",
@@ -115,9 +118,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UbU66EAF",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "事業再構築補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0W5h00000GMgXBEA1",
@@ -144,9 +148,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000GMgXBEA1",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "事業再構築補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXK4MAP",
@@ -173,9 +178,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXK4MAP",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "いわき市診療所開設・承継支援補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDJWIMA5",
@@ -202,9 +208,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDJWIMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "申請練習用制度【補助金の支払いはありません】",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0W5h00000UaiqSEAR",
@@ -231,9 +238,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UaiqSEAR",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "事業再構築補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDdtMMAT",
@@ -260,9 +268,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdtMMAT",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "ものづくり補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0W2x000007Cos5EAC",
@@ -349,12 +358,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSUMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "廃止石油坑井封鎖事業費補助金",
     "attachments": [
      "廃止石油坑井封鎖事業費補助金交付要綱.docx",
      "廃止石油坑井封鎖事業費補助金交付要綱（申請様式）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYSKMA5",
@@ -381,99 +391,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSKMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "廃止石油坑井封鎖事業費補助金",
     "attachments": [
      "廃止石油坑井封鎖事業費補助金交付要綱.docx",
      "廃止石油坑井封鎖事業費補助金交付要綱（申請様式）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
-  },
-  {
-   "id": "a0WJ200000CDXFiMAP",
-   "sig": "ee891855ea7c",
-   "row": {
-    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
-    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
-    "id": "a0WJ200000CDXFiMAP",
-    "institution_name": null,
-    "name": "S-00007957",
-    "subsidy_max_limit": 500000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "京都市企業立地促進制度補助金［お試し立地支援制度］"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "京都市への進出を検討する企業を支援！シェアオフィス等の利用料や交通費を最大50万円補助します。",
-    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外から市内に初めて進出を検討する企業が、試行的に市内のシェアオフィスやコワーキングスペース等を利用する場合に、利用料及び交通費に対して補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業で、市内での事業所の設置を検討している方とします。 ただし、次の各号に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li><li><span style=\"font-size: 12.8px;\">過去に本補助金の交付を受けた者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">次の各号の要件をすべて満たす事業とし、補助対象期間は3箇月間（海外企業においては6箇月間）を上限とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のシェアオフィス等を7日以上利用すること。</span></li><li><span style=\"font-size: 12.8px;\">補助対象期間内に市の取材やアンケート等に応じること。</span></li></ol><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助額</strong></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助率》</strong></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：シェアオフィス等の利用料として支払う経費（通常定額の利用料に含まれないもの及び消費税等を除く）に100分の50を乗じた額</span></li><li><span style=\"font-size: 12.8px;\">交通費：通常勤務する事業所等の所在地とシェアオフィス等との往復の交通費として支払う経費に100分の50を乗じた額</span></li></ol><p><strong style=\"font-size: 12.8px; color: rgb(0, 111, 173);\">《補助上限額》</strong></p><p><span style=\"font-size: 12.8px;\">利用日数及び利用人数に応じて限度額を設定しています。</span></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：最大25万円（海外企業は最大50万円）</span></li><li><span style=\"font-size: 12.8px;\">交通費：最大25万円（海外企業は最大50万円）</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">シェアオフィス等の利用を開始する日の7日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>京都市HP（<span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［お試し立地支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(11, 92, 171);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p>",
-    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
-    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": "シェアオフィス等の利用料の1/2 + 交通費の1/2",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFiMAP",
-    "request_reception_presence": "無",
-    "is_enable_multiple_request": false,
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-04"
-  },
-  {
-   "id": "a0WJ200000CDXFhMAP",
-   "sig": "692dc1c8806f",
-   "row": {
-    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
-    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
-    "id": "a0WJ200000CDXFhMAP",
-    "institution_name": null,
-    "name": "S-00007956",
-    "subsidy_max_limit": 100000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "京都市企業立地促進制度補助金［本社・工場等新増設等支援制度］"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "京都市内での本社・工場・開発拠点等の新増設を強力に支援！固定資産税・都市計画税相当額を最大1億円補助します。",
-    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 資料中に明記がありません。</strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、製造業、ソフトウェア業又は情報処理サービス業を営む企業が、市内で本社機能を有する事業所、工場、開発拠点、研究所の新増設等を行う場合に、固定資産税・都市計画税相当額等の補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》補助対象者は、製造業、ソフトウェア業、又は情報処理サービス業を営む企業です。</span></p><p><span style=\"font-size: 12.8px;\">ただし、次のいずれかに該当する方は対象外となります。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例に規定する暴力団員等又は暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li></ol><p><span style=\"font-size: 12.8px;\">《補助対象事業》</span></p><p><span style=\"font-size: 12.8px;\">市内において、本社機能を有する事業所、工場、開発拠点、又は研究所の新増設等（建物の建築、購入、賃借を含む）を行う事業を対象とします。</span></p><p><span style=\"font-size: 12.8px;\">主な要件は以下の通りです。</span></p><ol><li><span style=\"font-size: 12.8px;\">生産等設備取得額の合計が、中小企業者においては1,000万円以上、大企業においては2,500万円以上であること。</span></li><li><span style=\"font-size: 12.8px;\">対象事業所等の常時雇用者数が5名以上であること。</span></li><li>次のいずれかに該当すること。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ア.市内における常時雇用者の総数が申請の日から増加していること。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　イ.本社・工場等の新増設等に伴い生産性の向上に資する投資を行い、かつ、市内の常時雇用者を新たに１人以上雇用していること。</li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">固定資産税・都市計画税相当額の補助（ただし、土地に係るものを除く）</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大1億円</span></li><li><span style=\"font-size: 12.8px;\">補助率（中小企業者）：固定資産税・都市計画税相当額の100％</span></li><li><span style=\"font-size: 12.8px;\">補助率（大企業）：固定資産税・都市計画税相当額の50％</span></li></ul><p><span style=\"font-size: 12.8px;\">埋蔵文化財発掘調査費の補助</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大2,500万円</span></li><li><span style=\"font-size: 12.8px;\">補助率：埋蔵文化財発掘調査経費相当額の50％</span></li></ul><p><span style=\"font-size: 12.8px;\">※応募企業の企業区分に応じて、交付年数等の要件が異なります。詳細については、参照URLより、京都市HPの情報をご確認ください。</span></p><p><span style=\"font-size: 12.8px;\">※固定資産税・都市計画税相当額の補助の補助率については、特定地域の上乗せがあります。詳細については、参照URLより、京都市HPの情報をご確認ください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">本社・工場等の新増設等に着工する日の30日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書を提出する必要があるため、申請の前に問合せ先に連絡してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 12.8px;\">京都市HP（京都市企業立地促進制度補助金［本社・工場等新増設等支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p>",
-    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
-    "industry": "製造業 / 情報通信業",
-    "target_area_detail": null,
-    "subsidy_rate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％～150%",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFhMAP",
-    "request_reception_presence": "無",
-    "is_enable_multiple_request": false,
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-04"
-  },
-  {
-   "id": "a0WJ200000CDXFgMAP",
-   "sig": "51c06ea8bc35",
-   "row": {
-    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
-    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
-    "id": "a0WJ200000CDXFgMAP",
-    "institution_name": null,
-    "name": "S-00007955",
-    "subsidy_max_limit": 100000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "京都型グローバル・ニッチ・トップ企業育成補助金"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "特定の認定を受けた中小企業を支援！事業所の新増設に伴う固定資産税・都市計画税相当額を最大1億円補助します。",
-    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。</strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤を強化するとともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、特定の認定（オスカー認定、Ａランク認定、知恵創出”目の輝き”認定）を受けた中小企業が市内で事業所の新増設を行う場合に、固定資産税・都市計画税相当額等の補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、中小企業で、次のいずれかに該当する企業とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市ベンチャー企業目利き委員会Ａランク認定企業</span></li><li><span style=\"font-size: 12.8px;\">京都高度技術研究所オスカー認定企業（バリュークリエーション審査委員会オスカー認定企業）</span></li><li><span style=\"font-size: 12.8px;\">京都市産業技術研究所「知恵創出”目の輝き”」認定企業 等</span></li></ol><p><span style=\"font-size: 12.8px;\">《補助対象事業》京都市内全域において、補助対象者が事業所の新増設（賃借を除く。）を行う事業を対象とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">固定資産税・都市計画税相当額の補助（ただし、土地に係るものを除く）</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大1億円</span></li><li><span style=\"font-size: 12.8px;\">補助率：固定資産税・都市計画税相当額の100％</span></li></ul><p><span style=\"font-size: 12.8px;\">埋蔵文化財発掘調査費の補助</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大2,500万円</span></li><li><span style=\"font-size: 12.8px;\">補助率：埋蔵文化財発掘調査を実施する場合、当該調査に要した経費相当額の50％</span></li></ul><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">事務所の新増設の工事に着手する日の30日前までに、京都型グローバル・ニッチ・トップ企業育成補助金補助対象事業指定申請書を提出する必要があるため、申請の前に問合せ先に連絡してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">京都市HP（</strong><span style=\"font-size: 12.8px;\">京都型グローバル・ニッチ・トップ企業育成補助金）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p>",
-    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
-    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFgMAP",
-    "request_reception_presence": "無",
-    "is_enable_multiple_request": false,
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXFfMAP",
@@ -500,9 +424,100 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFfMAP",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
+  },
+  {
+   "id": "a0WJ200000CDXFiMAP",
+   "sig": "ee891855ea7c",
+   "row": {
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "id": "a0WJ200000CDXFiMAP",
+    "institution_name": null,
+    "name": "S-00007957",
+    "subsidy_max_limit": 500000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "京都市企業立地促進制度補助金［お試し立地支援制度］"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "京都市への進出を検討する企業を支援！シェアオフィス等の利用料や交通費を最大50万円補助します。",
+    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外から市内に初めて進出を検討する企業が、試行的に市内のシェアオフィスやコワーキングスペース等を利用する場合に、利用料及び交通費に対して補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業で、市内での事業所の設置を検討している方とします。 ただし、次の各号に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li><li><span style=\"font-size: 12.8px;\">過去に本補助金の交付を受けた者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">次の各号の要件をすべて満たす事業とし、補助対象期間は3箇月間（海外企業においては6箇月間）を上限とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のシェアオフィス等を7日以上利用すること。</span></li><li><span style=\"font-size: 12.8px;\">補助対象期間内に市の取材やアンケート等に応じること。</span></li></ol><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助額</strong></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助率》</strong></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：シェアオフィス等の利用料として支払う経費（通常定額の利用料に含まれないもの及び消費税等を除く）に100分の50を乗じた額</span></li><li><span style=\"font-size: 12.8px;\">交通費：通常勤務する事業所等の所在地とシェアオフィス等との往復の交通費として支払う経費に100分の50を乗じた額</span></li></ol><p><strong style=\"font-size: 12.8px; color: rgb(0, 111, 173);\">《補助上限額》</strong></p><p><span style=\"font-size: 12.8px;\">利用日数及び利用人数に応じて限度額を設定しています。</span></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：最大25万円（海外企業は最大50万円）</span></li><li><span style=\"font-size: 12.8px;\">交通費：最大25万円（海外企業は最大50万円）</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">シェアオフィス等の利用を開始する日の7日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>京都市HP（<span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［お試し立地支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(11, 92, 171);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p>",
+    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
+    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": "シェアオフィス等の利用料の1/2 + 交通費の1/2",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFiMAP",
+    "request_reception_presence": "無",
+    "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-12"
+  },
+  {
+   "id": "a0WJ200000CDXFhMAP",
+   "sig": "692dc1c8806f",
+   "row": {
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "id": "a0WJ200000CDXFhMAP",
+    "institution_name": null,
+    "name": "S-00007956",
+    "subsidy_max_limit": 100000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "京都市企業立地促進制度補助金［本社・工場等新増設等支援制度］"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "京都市内での本社・工場・開発拠点等の新増設を強力に支援！固定資産税・都市計画税相当額を最大1億円補助します。",
+    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 資料中に明記がありません。</strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、製造業、ソフトウェア業又は情報処理サービス業を営む企業が、市内で本社機能を有する事業所、工場、開発拠点、研究所の新増設等を行う場合に、固定資産税・都市計画税相当額等の補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》補助対象者は、製造業、ソフトウェア業、又は情報処理サービス業を営む企業です。</span></p><p><span style=\"font-size: 12.8px;\">ただし、次のいずれかに該当する方は対象外となります。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例に規定する暴力団員等又は暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li></ol><p><span style=\"font-size: 12.8px;\">《補助対象事業》</span></p><p><span style=\"font-size: 12.8px;\">市内において、本社機能を有する事業所、工場、開発拠点、又は研究所の新増設等（建物の建築、購入、賃借を含む）を行う事業を対象とします。</span></p><p><span style=\"font-size: 12.8px;\">主な要件は以下の通りです。</span></p><ol><li><span style=\"font-size: 12.8px;\">生産等設備取得額の合計が、中小企業者においては1,000万円以上、大企業においては2,500万円以上であること。</span></li><li><span style=\"font-size: 12.8px;\">対象事業所等の常時雇用者数が5名以上であること。</span></li><li>次のいずれかに該当すること。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　ア.市内における常時雇用者の総数が申請の日から増加していること。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　イ.本社・工場等の新増設等に伴い生産性の向上に資する投資を行い、かつ、市内の常時雇用者を新たに１人以上雇用していること。</li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">固定資産税・都市計画税相当額の補助（ただし、土地に係るものを除く）</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大1億円</span></li><li><span style=\"font-size: 12.8px;\">補助率（中小企業者）：固定資産税・都市計画税相当額の100％</span></li><li><span style=\"font-size: 12.8px;\">補助率（大企業）：固定資産税・都市計画税相当額の50％</span></li></ul><p><span style=\"font-size: 12.8px;\">埋蔵文化財発掘調査費の補助</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大2,500万円</span></li><li><span style=\"font-size: 12.8px;\">補助率：埋蔵文化財発掘調査経費相当額の50％</span></li></ul><p><span style=\"font-size: 12.8px;\">※応募企業の企業区分に応じて、交付年数等の要件が異なります。詳細については、参照URLより、京都市HPの情報をご確認ください。</span></p><p><span style=\"font-size: 12.8px;\">※固定資産税・都市計画税相当額の補助の補助率については、特定地域の上乗せがあります。詳細については、参照URLより、京都市HPの情報をご確認ください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">本社・工場等の新増設等に着工する日の30日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書を提出する必要があるため、申請の前に問合せ先に連絡してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 12.8px;\">京都市HP（京都市企業立地促進制度補助金［本社・工場等新増設等支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p>",
+    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
+    "industry": "製造業 / 情報通信業",
+    "target_area_detail": null,
+    "subsidy_rate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％～150%",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFhMAP",
+    "request_reception_presence": "無",
+    "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-12"
+  },
+  {
+   "id": "a0WJ200000CDXFgMAP",
+   "sig": "51c06ea8bc35",
+   "row": {
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "id": "a0WJ200000CDXFgMAP",
+    "institution_name": null,
+    "name": "S-00007955",
+    "subsidy_max_limit": 100000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "京都型グローバル・ニッチ・トップ企業育成補助金"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "特定の認定を受けた中小企業を支援！事業所の新増設に伴う固定資産税・都市計画税相当額を最大1億円補助します。",
+    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。</strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤を強化するとともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、特定の認定（オスカー認定、Ａランク認定、知恵創出”目の輝き”認定）を受けた中小企業が市内で事業所の新増設を行う場合に、固定資産税・都市計画税相当額等の補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、中小企業で、次のいずれかに該当する企業とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市ベンチャー企業目利き委員会Ａランク認定企業</span></li><li><span style=\"font-size: 12.8px;\">京都高度技術研究所オスカー認定企業（バリュークリエーション審査委員会オスカー認定企業）</span></li><li><span style=\"font-size: 12.8px;\">京都市産業技術研究所「知恵創出”目の輝き”」認定企業 等</span></li></ol><p><span style=\"font-size: 12.8px;\">《補助対象事業》京都市内全域において、補助対象者が事業所の新増設（賃借を除く。）を行う事業を対象とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">固定資産税・都市計画税相当額の補助（ただし、土地に係るものを除く）</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大1億円</span></li><li><span style=\"font-size: 12.8px;\">補助率：固定資産税・都市計画税相当額の100％</span></li></ul><p><span style=\"font-size: 12.8px;\">埋蔵文化財発掘調査費の補助</span></p><ul><li><span style=\"font-size: 12.8px;\">上限額：最大2,500万円</span></li><li><span style=\"font-size: 12.8px;\">補助率：埋蔵文化財発掘調査を実施する場合、当該調査に要した経費相当額の50％</span></li></ul><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">事務所の新増設の工事に着手する日の30日前までに、京都型グローバル・ニッチ・トップ企業育成補助金補助対象事業指定申請書を提出する必要があるため、申請の前に問合せ先に連絡してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">京都市HP（</strong><span style=\"font-size: 12.8px;\">京都型グローバル・ニッチ・トップ企業育成補助金）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000310196.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000310196.html</a></p>",
+    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
+    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFgMAP",
+    "request_reception_presence": "無",
+    "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDOsKMAX",
@@ -529,9 +544,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDOsKMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "無線システム普及支援事業費等事業（携帯電話等エリア整備事業）",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0W2x000003QZLqEAO",
@@ -558,9 +574,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000003QZLqEAO",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "電波遮へい対策事業（トンネル）",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYurMAH",
@@ -587,12 +604,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYurMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYumMAH",
@@ -619,11 +637,12 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYumMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYuhMAH",
@@ -650,12 +669,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuhMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYucMAH",
@@ -682,12 +702,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYucMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYuXMAX",
@@ -714,12 +735,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuXMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYuSMAX",
@@ -746,12 +768,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuSMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYuIMAX",
@@ -778,12 +801,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuIMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYu3MAH",
@@ -810,12 +834,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYu3MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY9BMAX",
@@ -842,12 +867,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY9BMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY96MAH",
@@ -874,12 +900,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY96MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY91MAH",
@@ -906,12 +933,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY91MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY89MAH",
@@ -938,12 +966,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY89MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY8DMAX",
@@ -970,12 +999,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY8DMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY88MAH",
@@ -1002,12 +1032,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY88MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY7yMAH",
@@ -1034,12 +1065,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7yMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY7tMAH",
@@ -1066,12 +1098,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7tMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山鉱害防止等工事費補助金",
     "attachments": [
      "休廃止鉱山鉱害防止等工事費補助金交付要綱.pdf",
      "休廃止鉱山鉱害防止等工事費補助金交付要綱様式r.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYvnMAH",
@@ -1098,12 +1131,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYvnMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金",
     "attachments": [
      "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金交付要綱r.pdf",
      "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金交付要綱(様式のみ）.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYviMAH",
@@ -1130,12 +1164,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYviMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金",
     "attachments": [
      "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金交付要綱r.pdf",
      "休廃止鉱山の鉱害防止に係るエネルギー使用合理化事業費補助金交付要綱(様式のみ）.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXORMA5",
@@ -1162,6 +1197,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXORMA5",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "放送ネットワーク整備支援事業費補助金（地上基幹放送ネットワーク整備事業）",
     "attachments": [
      "⑦公募要領.pdf",
      "⑤-1 放送ネットワーク整備支援事業費補助金交付要綱 (1).pdf",
@@ -1178,7 +1214,7 @@
      "90 免許等申請確約書記載例.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYCrMAP",
@@ -1205,9 +1241,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYCrMAP",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "地方創生支援利子補給金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXFjMAP",
@@ -1234,6 +1271,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFjMAP",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "地上基幹放送等に関する耐災害性強化支援事業",
     "attachments": [
      "公募要領（地上基幹放送等に関する耐災害性強化支援事業）v4.pdf",
      "01 無線システム普及支援事業費等補助金交付要綱_R8.1（本体）.pdf",
@@ -1251,7 +1289,7 @@
      "99_整備計画書（記入例）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXENMA5",
@@ -1278,6 +1316,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXENMA5",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "民放ラジオ難聴解消支援事業",
     "attachments": [
      "公募要領（民放ラジオ難聴解消支援事業）v4.pdf",
      "⑤-1 無線システム普及支援事業費等補助金交付要綱_R8.1（本体）.pdf",
@@ -1301,7 +1340,7 @@
      "60 免許申請確約書（記入例）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY72MAH",
@@ -1328,6 +1367,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY72MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度東京港物流効率化等事業補助金",
     "attachments": [
      "令和８年度東京港物流効率化等事業補助金実施要領.pdf",
      "令和８年度東京港物流効率化等事業補助金に関するQ＆A.pdf",
@@ -1343,7 +1383,7 @@
      "委任状（記載例）.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDX4vMAH",
@@ -1370,9 +1410,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDX4vMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "ものづくり補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDdABMA1",
@@ -1399,6 +1440,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdABMA1",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度SDGsファイナンスに係る補助金",
     "attachments": [
      "SDGs預金補助金交付要綱.pdf",
      "【様式第1】補助金交付申請書（SDGs預金）.docx",
@@ -1418,7 +1460,7 @@
      "【様式第12】補助金請求書.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDdA6MAL",
@@ -1445,6 +1487,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdA6MAL",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度SDGsファイナンスに係る補助金",
     "attachments": [
      "SDGsファイナンス促進支援事業補助金（ソーシャルファイナンス）交付要綱.pdf",
      "【様式第１】補助金交付申請書.xlsx",
@@ -1471,7 +1514,7 @@
      "【様式第18】発行等支援状況報告書.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDd9xMAD",
@@ -1498,6 +1541,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9xMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度SDGsファイナンスに係る補助金",
     "attachments": [
      "SDGsファイナンス促進支援事業補助金（トランジションファイナンス等）交付要綱.pdf",
      "【様式第1】補助金交付申請書.docx",
@@ -1523,7 +1567,7 @@
      "【様式第11】交付額確定通知書.doc"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDd9wMAD",
@@ -1550,6 +1594,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd9wMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度SDGsファイナンスに係る補助金",
     "attachments": [
      "SDGsファイナンス促進支援事業補助金（ブルーファイナンス）交付要綱.pdf",
      "【様式第１別紙３】支援対象事業者の要件確認書.docx",
@@ -1574,7 +1619,7 @@
      "【様式第15】（返還請求書）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDd5XMAT",
@@ -1601,6 +1646,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd5XMAT",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度SDGsファイナンスに係る補助金",
     "attachments": [
      "SDGsファイナンス促進支援事業補助金（グリーンファイナンス）交付要綱.pdf",
      "【様式第１】補助金交付申請書.xlsx",
@@ -1625,7 +1671,7 @@
      "【様式第14】（返還請求書）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDL8JMAX",
@@ -1652,9 +1698,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDL8JMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "脱炭素成長型経済構造移行推進対策費補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDc0YMAT",
@@ -1681,13 +1728,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDc0YMAT",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度都市ガス分野の災害対応・レジリエンス強化にかかる支援事業費補助金",
     "attachments": [
      "公募要領1007.zip",
      "交付申請書一式（様式・別紙作成入力フォーマット）1007.zip",
      "交付申請書(一式)r1.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDbyyMAD",
@@ -1714,9 +1762,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyyMAD",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "小樽市省エネルギー診断補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYSFMA5",
@@ -1743,9 +1792,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSFMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "子育て支援型共同住宅推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYSAMA5",
@@ -1772,9 +1822,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSAMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "子育て支援型共同住宅推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDeRiMAL",
@@ -1801,9 +1852,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeRiMAL",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "受動喫煙防止対策助成金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZDCMA5",
@@ -1830,6 +1882,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDCMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "二酸化炭素排出抑制対策事業費等補助金 環境配慮型先進トラック・バス導入加速事業",
     "attachments": [
      "公募要領.pdf",
      "交付規程.pdf",
@@ -1837,7 +1890,7 @@
      "提出資料総括表.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDdPBMA1",
@@ -1864,6 +1917,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdPBMA1",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度ハイブリッド連節バス導入支援事業",
     "attachments": [
      "令和8年度HVNGVトラックバス公募要領.pdf",
      "令和8年度環境省実施要領.pdf",
@@ -1879,7 +1933,7 @@
      "R8様式第1-4_財産処分.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYSPMA5",
@@ -1906,9 +1960,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYSPMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "子育て支援型共同住宅推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXRpMAP",
@@ -1935,6 +1990,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXRpMAP",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "脱炭素成長型経済構造移行推進対策費補助金",
     "attachments": [
      "令和7年度（補正）商用車等の電動化促進事業（建設機械）公募要領.pdf",
      "令和7年度補正　商用車等の電動化促進事業（建設機械）交付規定.pdf",
@@ -1948,7 +2004,7 @@
      "⑧様式第11_取得財産管理台帳（実績申請）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYq2MAH",
@@ -1975,11 +2031,12 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYq2MAH",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "高度安全機械等導入支援補助金",
     "attachments": [
      "R8交付要領.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDeC1MAL",
@@ -2006,9 +2063,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDeC1MAL",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "P23021_ディープテック・スタートアップ支援基金／国際共同研究開発",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDWZ9MAP",
@@ -2035,9 +2093,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWZ9MAP",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "脱炭素成長型経済構造移行推進対策費補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZ2OMAX",
@@ -2064,9 +2123,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "住宅・建築物カーボンニュートラル総合推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY7KMAX",
@@ -2093,9 +2153,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY7KMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "住宅・建築物カーボンニュートラル総合推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDHQZMA5",
@@ -2122,6 +2183,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDHQZMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金",
     "attachments": [
      "「在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金_募集要項」.pdf",
      "「在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金＿交付要綱」.pdf",
@@ -2134,7 +2196,7 @@
      "（参考）よくある質問_R0804.DOCX"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY6KMAX",
@@ -2161,9 +2223,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY6KMAX",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "実証実験補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDVkeMAH",
@@ -2250,9 +2313,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003rYGLUA2",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "二酸化炭素排出抑制対策事業費等補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003cAFxUAM",
@@ -2279,9 +2343,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003cAFxUAM",
     "request_reception_presence": "無",
     "is_enable_multiple_request": true,
+    "institution_name": "二酸化炭素排出抑制対策事業費等補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYBxMAP",
@@ -2308,9 +2373,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYBxMAP",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "INPIT事業再編計画支援事業補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYC7MAP",
@@ -2337,6 +2403,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYC7MAP",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度ＰＣＢ汚染変圧器高効率化補助金",
     "attachments": [
      "1 R8 変圧器公募要領【財団】.pdf",
      "2 R8 交付規程.pdf",
@@ -2358,7 +2425,7 @@
      "R8【様式第15】事業報告書(第15条関係）.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003pvCDUAY",
@@ -2385,9 +2452,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003pvCDUAY",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "重要鉱物に係るサプライチェーン強靱化事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003lu8IUAQ",
@@ -2414,9 +2482,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003lu8IUAQ",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "建築物等のZEB化・省CO2化普及加速事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003kEuHUAU",
@@ -2473,6 +2542,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXmVMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "INPIT外国出願補助金（中間手続補助）",
     "attachments": [
      "R8中間応答_交付要領_1.0版_r3.pdf",
      "INPIT外国出願補助金交付要綱.pdf",
@@ -2480,7 +2550,7 @@
      "【中間手続補助】様式第1別紙（試験研究機関（大学等）用）ｒ.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003dVevUAE",
@@ -2511,6 +2581,40 @@
     "attachments": []
    },
    "detail_fetched": "2026-11-10"
+  },
+  {
+   "id": "a0WfQ0000049swXUAQ",
+   "sig": "d15b390667b2",
+   "row": {
+    "acceptance_end_datetime": "2026-12-11T03:00:00.000Z",
+    "acceptance_start_datetime": "2026-11-11T03:00:00.000Z",
+    "id": "a0WfQ0000049swXUAQ",
+    "institution_name": null,
+    "name": "S-00010047",
+    "subsidy_max_limit": 2700000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "令和７年度補正「次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業補助金」【三次公募】"
+   },
+   "detail": {
+    "subsidy_catch_phrase": null,
+    "detail": "<p><strong style=\"font-size: 12px; color: rgb(0, 111, 173); font-family: sans-serif;\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">本補助金は、新たな安全メカニズムを組み込んだ次世代革新炉に含まれる革新軽水炉及び小型軽水炉について、その実現に向けた技術開発と、サプライチェーン高度化を支援することで、次世代革新炉の開発・建設に向けた実用化開発の促進及び原子力産業基盤の維持・強化を図ることを目的とします。</span></p><p><br></p><p><strong style=\"font-family: sans-serif; color: rgb(0, 111, 173); font-size: 12px;\">■備考</strong></p><p><span style=\"font-size: 12.8px;\">応募書類はJグランツでご提出ください。</span></p><p><span style=\"font-size: 12.8px;\">やむを得ない事情によりJグランツでの提出が困難な場合は、事務局にご相談ください。</span></p><p><br></p><p><span style=\"font-size: 12.8px;\">※上記に記載のない内容もございますので、必ず「募集要領」をご確認ください。</span></p><p><br></p><p><strong style=\"font-size: 12px; color: rgb(0, 111, 173); font-family: sans-serif;\">■公募要領・交付規定・申請様式などのダウンロード先</strong></p><p><a href=\"https://www.teitanso.or.jp/nextnuc/\" target=\"_blank\" style=\"font-family: sans-serif; font-size: 12px;\">https://www.teitanso.or.jp/nextnuc/</a></p><p><br></p><p><strong style=\"font-size: 12px; color: rgb(0, 111, 173); font-family: sans-serif;\">■問合せ先</strong></p><p><span style=\"font-size: 12px; color: rgb(18, 18, 18); font-family: sans-serif;\">一般社団法人低炭素投資促進機構</span></p><p><span style=\"font-size: 12px; font-family: sans-serif;\">メール：nextnuc@teitanso.or.jp</span></p><p><br></p><p><strong style=\"font-size: 12px; color: rgb(0, 111, 173); font-family: sans-serif;\">■jGrantsの操作マニュアル（事業者用）</strong></p><p><a href=\"https://fs2.jgrants-portal.go.jp/%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB_%E4%BA%8B%E6%A5%AD%E8%80%85%E7%94%A8.pdf\" target=\"_blank\" style=\"font-size: 12px; font-family: sans-serif;\">操作マニュアル_事業者用.pdf (jgrants-portal.go.jp)</a></p>",
+    "use_purpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
+    "industry": "建設業 / 製造業 / 情報通信業 / サービス業（他に分類されないもの） / 学術研究、専門・技術サービス業",
+    "target_area_detail": null,
+    "subsidy_rate": "1/2",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ0000049swXUAQ",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": true,
+    "institution_name": "次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業",
+    "attachments": [
+     "次世代革新炉補助金_募集要領（3次公募）.pdf",
+     "交付規程_次世代革新炉.pdf",
+     "申請様式.zip"
+    ]
+   },
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003zgNCUAY",
@@ -2605,13 +2709,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbyjMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "脱炭素成長型経済構造移行推進対策費補助金（ゼロエミッション船等の導入支援事業）",
     "attachments": [
      "R8_koubo.pdf",
      "R8_koufu.pdf",
      "R8_koubo_fmt.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYDCMA5",
@@ -2638,9 +2743,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDCMA5",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "中山間地域所得確保対策",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003aZqLUAU",
@@ -2667,6 +2773,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003aZqLUAU",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "成田空港の次代を担う若者の奨学金返還支援事業補助金",
     "attachments": [
      "成田空港の次代を担う若者の奨学金返還支援事業補助金交付規則.pdf",
      "交付申請必要書類確認表.xlsx",
@@ -2676,7 +2783,7 @@
      "（第5号様式）補助金交付請求書.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDderMAD",
@@ -2703,9 +2810,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDderMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "SDS電子化補助金事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZDHMA5",
@@ -2732,6 +2840,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDHMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業②空港におけるEV・FCV型車両導入事業（二酸化炭素排出抑制対策事業費等補助金）",
     "attachments": [
      "【公募要領】R8空港におけるEV・FCV型車両導入事業R8.10.pdf",
      "【交付規程】R8_空港・港湾における脱炭素化促進事業及びフォークリフトの燃料電池化促進事業.pdf",
@@ -2740,7 +2849,7 @@
      "18_交付申請書・提出書類チェックリスト.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZ1GMAX",
@@ -2767,6 +2876,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ1GMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
     "attachments": [
      "【公募要領】R8空港におけるEV・FCV型車両改造事業R8.10.pdf",
      "【交付規程】R8_空港・港湾における脱炭素化促進事業及びフォークリフトの燃料電池化促進事業.pdf",
@@ -2775,7 +2885,7 @@
      "27_応募申請書　提出書類チェックリスト.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZ04MAH",
@@ -2802,6 +2912,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ04MAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度　産業車両等の脱炭素化促進事業のうち、港湾における脱炭素化促進事業（二酸化炭素排出抑制対策事業費等補助金）",
     "attachments": [
      "【公募要領】R8港湾における脱炭素化促進事業R8.10.pdf",
      "【交付規程】R8_空港・港湾における脱炭素化促進事業及びフォークリフトの燃料電池化促進事業.pdf",
@@ -2810,7 +2921,7 @@
      "29_応募申請書　提出書類チェックリスト.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYzVMAX",
@@ -2837,6 +2948,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業①空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
     "attachments": [
      "【公募要領】R8空港における再エネ活用型GPU等導入支援R8.10.pdf",
      "【交付規程】R8_空港・港湾における脱炭素化促進事業及びフォークリフトの燃料電池化促進事業.pdf",
@@ -2845,7 +2957,7 @@
      "29_応募申請書　提出書類チェックリスト.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXyuMAH",
@@ -2872,13 +2984,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXyuMAH",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和8年度 資源循環分野の脱炭素化促進事業",
     "attachments": [
      "R08公募要領_資源循環分野の脱炭素化促進事業.pdf",
      "R8年度交付要綱（二酸化炭素排出抑制対策事業費等補助金（資源循環分野の脱炭素化促進事業））.pdf",
      "応募申請書類【様式1-4】.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYEGMA5",
@@ -2905,6 +3018,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYEGMA5",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "働き方改革推進支援助成金",
     "attachments": [
      "業種別課題対応コース.zip",
      "労働時間短縮・年休促進支援コース.zip",
@@ -2913,7 +3027,7 @@
      "団体推進コース.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDa1gMAD",
@@ -2940,6 +3054,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDa1gMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度二酸化炭素排出抑制対策事業費等補助金（運輸部門等の脱炭素化に向けた先進的システム社会実装促進事業のうち、農業機械の電動化促進事業）",
     "attachments": [
      "【交付規程】R8農業機械の電動化促進事業.pdf",
      "【公募要領】R8農業機械の電動化促進事業.pdf",
@@ -2948,7 +3063,7 @@
      "koubo.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDZzQMAX",
@@ -2975,6 +3090,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZzQMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業",
     "attachments": [
      "【確定】R8公募要領（地域再エネ水素ステーション保守点検等支援事業）.pdf",
      "R8年度交付要綱（地域における再エネ等由来水素利活用促進事業）.pdf",
@@ -2982,7 +3098,7 @@
      "R8_応募様式_改修.xlsx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDY5GMAX",
@@ -3009,9 +3125,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY5GMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和７年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金」ディマンドリスポンスの拡大に向けたIoT化推進事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003mzyjUAA",
@@ -3038,12 +3155,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003mzyjUAA",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
     "attachments": [
-     "2026_HtA事業Ⅱ_化学・紙パルプ・セメント等（二次公募）│公募要領_v1.0.pdf",
-     "hta2026_2_2_shinsei_yoshiki.zip"
+     "2026_HtA事業Ⅱ_化学・紙パルプ・セメント等（二次公募）│公募要領_v1.1.pdf",
+     "R8HtA事業_事業Ⅱ（二次公募）_申請様式_v1.1.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003myubUAA",
@@ -3070,12 +3188,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003myubUAA",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
     "attachments": [
-     "2026_HtA事業Ⅱ_化学・紙パルプ・セメント等（二次公募）│公募要領_v1.0.pdf",
-     "hta2026_2_2_shinsei_yoshiki.zip"
+     "2026_HtA事業Ⅱ_化学・紙パルプ・セメント等（二次公募）│公募要領_v1.1.pdf",
+     "R8HtA事業_事業Ⅱ（二次公募）_申請様式_v1.1.zip"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDe82MAD",
@@ -3102,9 +3221,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe82MAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "P25011_太陽光発電導入拡大等技術開発事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003tEv3UAE",
@@ -3131,9 +3251,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003tEv3UAE",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "P14004_NEDO先導研究プログラム",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003tibNUAQ",
@@ -3190,9 +3311,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYbNMAX",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "エイジフレンドリー補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003ENsfUAG",
@@ -3219,9 +3341,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003ENsfUAG",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "天然ガス利用設備による強靱性向上対策事業費補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDd3YMAT",
@@ -3248,13 +3371,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3YMAT",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "二酸化炭素排出抑制対策事業費等補助金",
     "attachments": [
      "【R8_公募要領】実装支援事業.pdf",
      "R8_交付規程_地域脱炭素実現に向けた具体施策実装支援事業.pdf",
      "応募様式(R8)、その他.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDd3OMAT",
@@ -3281,13 +3405,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDd3OMAT",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "二酸化炭素排出抑制対策事業費等補助金",
     "attachments": [
      "【公募要領(R7補正四次公募)】実装支援事業.pdf",
      "R7補正_地域脱炭素実現に向けた具体施策実装支援事業_交付規程.pdf",
      "応募様式(R7補正四次公募)、その他.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDXkJMAX",
@@ -3374,9 +3499,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003CYIjUAO",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDYh2MAH",
@@ -3403,12 +3529,13 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYh2MAH",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
+    "institution_name": "【北海道】2026年度「海外出願支援事業」",
     "attachments": [
      "2026kaigaisyutugan_bosyuyoko_3rd.pdf",
      "2026_kaigaisyutugan_youryou.pdf"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDNDnMAP",
@@ -3435,13 +3562,14 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNDnMAP",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "脱炭素成長型経済構造移行推進対策費補助金",
     "attachments": [
      "【公募要領】R8年度Scope3_V1.0.pdf",
      "【交付規程・様式】R8_Scope3_V1.0.pdf",
      "応募様式、その他.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003qYNFUA2",
@@ -3468,6 +3596,7 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003qYNFUA2",
     "request_reception_presence": "有",
     "is_enable_multiple_request": true,
+    "institution_name": "令和８年度二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））",
     "attachments": [
      "Ｒ８公募要領（３次公募）.pdf",
      "令和８年度  交付規程（施行版）.pdf",
@@ -3480,7 +3609,7 @@
      "１．【様式１】応募申請書、 ２．【様式２】実施計画書.docx"
     ]
    },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WJ200000CDdjfMAD",
@@ -3507,38 +3636,10 @@
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdjfMAD",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
+    "institution_name": "中小企業成長加速化補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-04"
-  },
-  {
-   "id": "a0WfQ000003N1RXUA0",
-   "sig": "f34670bb072a",
-   "row": {
-    "acceptance_end_datetime": "2026-11-06T08:30:00.000Z",
-    "acceptance_start_datetime": "2026-10-02T06:00:00.000Z",
-    "id": "a0WfQ000003N1RXUA0",
-    "institution_name": null,
-    "name": "S-00009890",
-    "subsidy_max_limit": 1500000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(16次公募)_PMI推進枠(PMI専門家活用類型)"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "事業承継・M&A補助金",
-    "detail": "<p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■申請にあたっての注意点</strong></p><p><strong style=\"font-size: 14px;\">本補助金及び以下の申請フォームは、</strong><span style=\"font-size: 14px;\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金(16次公募)における</span><strong style=\"font-size: 14px;\">「PMI推進枠のPMI専門家活用類型」</strong><span style=\"font-size: 14px;\">について用意されたものである。</span></p><p><span style=\"font-size: 14px;\">廃業・再チャレンジ枠と併用にて申請する場合は、PMI推進枠専門家活用類型として申請すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">【申請期日5営業日前までの申請推奨について】</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">本補助金では過去公募回の申請タイミングの傾向から、申請期日の前日、当日に申請が集中することが予想され、当公募回については審査日程上、期日間際での申請に対し、事務局での複数回の不備指摘、修正差戻しができず、不備の解消がしない場合には不採択となる可能性がある。</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">採択の可能性を高めるために、申請内容の不備指摘、修正差戻しを希望する場合は、申請期日の5営業日前（2026年10月29日）までの提出を検討すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">【有償で申請内容の作成を第三者へ依頼する場合の注意点】</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">申請内容の作成を有償で第三者へ依頼する場合は、</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">行政書士(又は行政書士法人)に限られ、行政書士証憑・委任契約書の提出が必須となります。</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">詳細は「公募申請の手引き」をご確認ください。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金（以下、「本補助金」という。）は、中小企業者及び個人事業主（以下、中小企業者と個人事業主を総称して「中小企業者等」という。）が事業承継、事業再編及び事業統合を契機として新たな取り組みを行う事業等（以下、「本事業」という。）について、その経費の一部を補助することにより、事業承継、事業再編及び事業統合を促進し、</span><span style=\"font-size: 14px;\">生産性向上による</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">我が国経済の活性化を図ることを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">補助金等に係る予算の執行の適正化に関する法律</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法</span></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">本補助金の補助対象者は、以下の（１）～（１５）の要件を満たし、かつ公募要領に記載する</span><span style=\"font-size: 14px;\">「6.補助対象事業」の要件を満たす中小企業者等とする。尚、「PMI専門家活用類型（同時申請）」の場合は、別途公開される専門家活用枠の公募要領に記載された要件を満たす中小企業者等であることが必要となるため、留意すること。</span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※中小企業者等の要件については、公募要領の【対象となる中小企業者等】を参照。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※共同申請については、公募要領の「7.申請単位」を参照。</span></p><p><br></p><p><span style=\"font-size: 14px;\">（１）補助対象者は、日本国内に拠点又は居住地を置き、日本国内で事業を営む者であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">法人の場合は、申請時点で設立登記および3期分の決算及び申告が完了していること。</u></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">個人事業主は、「個人事業の開業届出書」並びに「所得税の青色申告承認申請書」を税務署に提出した日付から5年が経過しており、税務署に提出した確定申告書Bと所得税青色申告決算書の写しを提出できること。</u><span style=\"font-size: 14px;\">（税務申告・届出を電子で行っている場合は、受付が確認できる「メール詳細」または「受信通知」（受付結果）を追加で提出。「メール詳細」または「受信通知」（受付結果）がない場合は、「納税証明書〔その2〕所得金額の証明書」又は「課税証明書（所得金額の記載のあるもの）」も追加で提出）</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※外国籍の者は、「国籍・地域」「在留期間等」「在留資格」「在留期間等の満了の日」「30条45規定区分」の項目が明記された住民票を添付すること。</span></p><p><span style=\"font-size: 14px;\">（２）補助対象者は、地域経済に貢献している中小企業者等であること。地域の雇用の維持、創出や地域の強みである技術、特産品で地域を支える等、地域経済に貢献している（または貢献する予定の）中小企業者等であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の雇用の維持、創出等により地域経済に貢献している。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域からの仕入（域内仕入）が多い。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の強み（技術、特産品、観光、スポーツ等）の活用に取り組んでいる。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域以外の地域への売上（域外販売）が多い（インバウンド等による域内需要の増加に伴う売上も含む）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 新事業等に挑戦し、地域経済に貢献するプロジェクトにおいて中心的な役割を担っている。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 上記によらずその他、当該企業の成長が地域経済に波及効果をもたらし、地域経済の活性化につながる取組を行っている。</span></p><p><span style=\"font-size: 14px;\">（３）補助対象者又はその法人の役員が、暴力団等の反社会的勢力（反社会勢力については公募要領の「18．反社会的勢力との関係が判明した場合」（１）を参照すること。）でないこと。また、反社会的勢力との関係を有しないこと。なお、反社会的勢力から出資等の資金提供を受けている場合も対象外とする。</span></p><p><span style=\"font-size: 14px;\">（４）補助対象者は、法令遵守上の問題を抱えていないこと。</span></p><p><span style=\"font-size: 14px;\">（５）補助対象者は、補助事業完了後の事業化状況報告等を期限までに提出すること。</span></p><p><span style=\"font-size: 14px;\">（６）補助対象者は、公募要領等に違反しないこと。</span></p><p><span style=\"font-size: 14px;\">（７）補助対象者は、事務局から質問及び追加資料等の依頼があった場合は適切に対応すること。</span></p><p><span style=\"font-size: 14px;\">（８）補助対象者は、事務局が必要と認めるときは、事務局が補助金の採否、交付ほか各種事務局による承認及び結果通知に係る事項につき修正を加えて通知することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（９）補助対象者は、補助金の返還等の事由が発生した際、申請その他本補助金の交付にあたり負担した各種費用について、いかなる事由においても事務局が負担しないことについて同意すること。</span></p><p><span style=\"font-size: 14px;\">（１０）補助対象者は、経済産業省及び独立行政法人中小企業基盤整備機構から補助金指定停止措置又は指名停止措置が講じられていないこと。 </span></p><p><span style=\"font-size: 14px;\">（１１）補助金申請時・利用時・事業報告提出時等に提供いただいた個人情報を含む全ての情報は、事業実施や効果的な政策立案、経営支援等（申請者への各種情報提供等）のために、事務局から国及び独立行政法人中小企業基盤整備機構に提供された後、統計的な処理等をされて匿名性を確保しつつ公表される場合や、その他本公募要領に記載された利活用をされる場合があるため、本申請を行うことにより、本データ利用について同意すること。なお、本補助金の審査にあたっては、中小企業庁所管の他補助金事務局が保有する、申請者に係る他補助金の申請・交付等に関する情報を利用する。また、効率的な補助金執行のため、本補助金の申請・交付等に関する情報についても、中小企業庁所管の他補助金事務局に対して情報共有することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１２）補助金の交付後に中小企業庁や事務局のホームページ等において、法人名・代表者名（屋号、個人名）、法人番号、住所（都道府県等）、テーマ名等を公表することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１３）申請時点から過去18ヵ月の間において、中小企業庁が所管する補助金※に申請した内容について、賃上げ加点の要件等が未達成の場合、正当な理由が認められない限り大幅に減点されることを了承した上で申請すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※令和8年9月時点では、ものづくり・商業・サービス生産性向上促進補助金、サービス等生産性向上IT導入支援事業、小規模事業者持続化補助金、事業承継・引継ぎ補助金、事業承継・M&amp;A補助金、成長型中小企業等研究開発支援事業（Go-Tech事業）、事業再構築補助金、新事業進出補助金、中小企業省力化投資補助事業を含む。</span></p><p><span style=\"font-size: 14px;\">（１４）事務局が求める補助対象事業に係る調査やアンケート等に協力できること。なお、本補助金では、事業承継・M&amp;A事業における「事業承継・引継ぎ支援センター」、「よろず支援拠点」、「中小企業活性化協議会（旧：中小企業再生支援協議会）」の利用状況について、申請時にアンケートを実施する。※回答内容が補助金の採択に影響することはありません。</span></p><p><span style=\"font-size: 14px;\">（１５）</span><u style=\"font-size: 14px;\">過去の「経営資源引継ぎ補助金」又は「事業承継・引継ぎ補助金」の補助金受給者のうち、期日までに事業化状況報告を適切に実施していること（事業化状況報告の実施義務が生じているにも関わらず、当該報告を提出しなかった者は対象外とする）。</u></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">【対象となる中小企業者等】</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法第2条に準じて、以下のとおり本補助金における中小企業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"width: 446.5pt; color: rgb(68, 68, 68); margin-left: -0.25pt; border: none;\" width=\"595\"><tbody><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border: 1pt solid windowtext; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">製造業その他<span style=\"color: black;\">（注</span><span style=\"color: black;\">1</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が3億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が300人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">卸売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が1億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">小売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が50人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">サービス業<span style=\"color: black;\">（注</span><span style=\"color: black;\">2</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注1）ゴム製品製造業（一部を除く）は資本金3億円以下又は従業員900人以下</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注2）ソフトウエア業・情報処理サービス業は資本金3億円以下又は従業員300人以下、旅館業は資本金5千万円以下又は従業員200人以下</span></p><p><span style=\"font-size: 14px;\">※資本金（出資金）又は従業員の基準を満たせば、医者（個人開業医）、農家（会社法上の会社又は有限会社である農業法人）、農家（個人農家）は中小企業者等に含むものとする。【該当者は、</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">公募要領の</span><span style=\"font-size: 14px;\">「6.2.補助対象となるPMIの要件」【その他補助対象事業の要件】3.を確認の上、対象事業に留意すること。】</span></p><p><strong style=\"font-size: 14px;\">※ただし、一部対象外となる中小企業者等の条件があるため、公募要領の「5.補助対象者」【対象外となる中小企業者等】を確認すること。</strong></p><p><br></p><p><strong style=\"font-size: 14px;\">【小規模事業者等の定義】</strong></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律第２条に準じて、以下のとおり補助金における小規模事業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"color: rgb(68, 68, 68); font-size: 14px; margin-left: -0.25pt; border: none;\"><tbody><tr style=\"height: 23.75pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border: 1pt solid black; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">製造業その他</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">商業・サービス業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が5人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">サービス業のうち宿泊業・娯楽業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px;\">※「商業」とは、卸売業・小売業を指す。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">なし</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 14px;\">提出のあった申請に不備や確認すべき事項等があった場合、事務局からJグランツを通じて連絡を行う。</span></p><p><span style=\"font-size: 14px;\">申請を行った者は、採択結果の通知まで適宜Jグランツマイページや登録したメールアドレスへの連絡がないかどうかを確認すること。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">事業承継・M&amp;A補助金事務局（PMI推進）</span></p><p><span style=\"font-size: 14px;\">050-3192-6228</span></p><p><span style=\"font-size: 14px;\">お問い合わせ受付時間：平日9：30～12：00、13：00～17：00（土・日・祝日を除く）</span></p><p><span style=\"font-size: 14px;\">※下記の事業承継・M&amp;A補助金事務局プライバシーポリシーをご確認の上、お問い合わせください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf</a></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金Webサイト</span></p><p><span style=\"font-size: 14px;\">﻿※公募要領・交付規程は下記HPからご確認ください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/</a></p>",
-    "use_purpose": "事業を引き継ぎたい",
-    "industry": "建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": "1/2 以内",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RXUA0",
-    "request_reception_presence": "有",
-    "is_enable_multiple_request": false,
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-04"
+   "detail_fetched": "2026-11-12"
   },
   {
    "id": "a0WfQ000003N1RVUA0",
@@ -3563,35 +3664,6 @@
     "subsidy_rate": "2/3 以内 又は 1/2 以内",
     "project_end_deadline": null,
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RVUA0",
-    "request_reception_presence": "有",
-    "is_enable_multiple_request": false,
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-04"
-  },
-  {
-   "id": "a0WfQ000003N1RWUA0",
-   "sig": "db0e57b35b46",
-   "row": {
-    "acceptance_end_datetime": "2026-11-06T08:30:00.000Z",
-    "acceptance_start_datetime": "2026-10-02T06:00:00.000Z",
-    "id": "a0WfQ000003N1RWUA0",
-    "institution_name": null,
-    "name": "S-00009889",
-    "subsidy_max_limit": 20000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(16次公募)_専門家活用枠(買い手支援類型-100億企業特例)"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "事業承継・M&A補助金",
-    "detail": "<p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■申請にあたっての注意点</strong></p><p><strong style=\"font-size: 14px;\">本補助金及び以下の申請フォームは、</strong><span style=\"font-size: 14px;\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金(16次公募)における</span><strong style=\"font-size: 14px;\">「専門家活用枠」のうち、補助上限額を2,000万円以内とする買い手支援類型（100億企業特例）</strong><span style=\"font-size: 14px;\">について用意されたものである。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">【申請期日5営業日前までの申請推奨について】</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">本補助金では過去公募回の申請タイミングの傾向から、申請期日の前日、当日に申請が集中することが予想され、当公募回については審査日程上、期日間際での申請に対し、事務局での複数回の不備指摘、修正差戻しができず、不備の解消がしない場合には不採択となる可能性がある。</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">採択の可能性を高めるために、申請内容の不備指摘、修正差戻しを希望する場合は、申請期日の5営業日前（2026年10月29日）までの提出を検討すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">【有償で申請内容の作成を第三者へ依頼する場合の注意点】</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">申請内容の作成を有償で第三者へ依頼する場合は、</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">行政書士(又は行政書士法人)に限られ、行政書士証憑・委任契約書の提出が必須となります。</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">詳細は「公募申請の手引き」をご確認ください。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金（以下、「本補助金」という。）は、中小企業者及び個人事業主（以下、中小企業者と個人事業主を総称して「中小企業者等」という。）が事業承継、事業再編及び事業統合を契機として新たな取り組みを行う事業等（以下、「本事業」という。）について、その経費の一部を補助することにより、事業承継、事業再編及び事業統合を促進し、</span><span style=\"font-size: 14px;\">生産性向上による</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">我が国経済の活性化を図ることを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">補助金等に係る予算の執行の適正化に関する法律</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法</span></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">本補助金の補助対象者は、以下の（１）～（１７）の要件を満たし、かつ公募要領に記載する「6.1.補助対象となる事業及びM&amp;Aの要件」を満たす最終契約書の契約当事者(予定含む)たる中小企業者等とする。</span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※中小企業者等の要件については、公募要領の【対象となる中小企業者等】を参照。</span></p><p><br></p><p><span style=\"font-size: 14px;\">（１）補助対象者は、日本国内に拠点又は居住地を置き、日本国内で事業を営む者であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">個人事業主は、「個人事業の開業届出書」並びに「所得税の青色申告承認申請書」を税務署に提出した日付から5年が経過しており、税務署に提出した確定申告書Bと所得税青色申告決算書の写しを提出できること</u><span style=\"font-size: 14px;\">（税務申告・届出を電子で行っている場合は、受付が確認できる「メール詳細」または「受信通知」（受付結果）を追加で提出。「メール詳細」または「受信通知」（受付結果）がない場合は、「納税証明書〔その2〕所得金額の証明書」又は「課税証明書（所得金額の記載のあるもの）」も追加で提出）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※外国籍の者は、「国籍・地域」「在留期間等」「在留資格」「在留期間等の満了の日」「30条45規定区分」の項目が明記された住民票を添付すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">補助対象者が法人の場合は、申請時点で設立登記および3期分の決算及び申告が完了していること。</u></p><p><span style=\"font-size: 14px;\">（２）補助対象者は、地域経済に貢献している中小企業者等であること。地域の雇用の維持、創出や地域の強みである技術、特産品で地域を支える等、地域経済に貢献している（または貢献する予定の）中小企業者等であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※地域経済に貢献している例</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の雇用の維持、創出等により地域経済に貢献している。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域からの仕入（域内仕入）が多い。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の強み（技術、特産品、観光、スポーツ等）の活用に取り組んでいる。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域以外の地域への売上（域外販売）が多い（インバウンド等による域内需要の増加に伴う売上も含む）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 新事業等に挑戦し、地域経済に貢献するプロジェクトにおいて中心的な役割を担っている。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 上記によらずその他、当該企業の成長が地域経済に波及効果をもたらし、地域経済の活性化につながる取組を行っている。</span></p><p><span style=\"font-size: 14px;\">（３） 補助対象者又はその法人の役員が、暴力団等の反社会的勢力（反社会勢力については「18．反社会的勢力との関係が判明した場合」（１）を参照すること。）でないこと。また、反社会的勢力との関係を有しないこと。なお、反社会的勢力から出資等の資金提供を受けている場合も対象外とする。</span></p><p><span style=\"font-size: 14px;\">（４）補助対象者は、法令遵守上の問題を抱えていないこと。</span></p><p><span style=\"font-size: 14px;\">（５）補助対象者は、補助事業完了後の事業化状況報告等を期限までに提出すること。</span></p><p><span style=\"font-size: 14px;\">（６）補助対象者は、公募要領等に違反しないこと。</span></p><p><span style=\"font-size: 14px;\">（７）補助対象者は、事務局から質問及び追加資料等の依頼があった場合は適切に対応すること。</span></p><p><span style=\"font-size: 14px;\">（８）補助対象者は、事務局が必要と認めるときは、事務局が補助金の採否、交付ほか各種事務局による承認及び結果通知に係る事項につき修正を加えて通知することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（９）補助対象者は、補助金の返還等の事由が発生した際、申請その他本補助金の交付にあたり負担した各種費用について、いかなる事由においても事務局が負担しないことについて同意すること。</span></p><p><span style=\"font-size: 14px;\">（１０）補助対象者は、経済産業省及び独立行政法人中小企業基盤整備機構から補助金交付等停止措置又は指名停止措置が講じられていないこと。</span></p><p><span style=\"font-size: 14px;\">（１１）補助金申請時・利用時・事業報告提出時等に提供いただいた個人情報を含む全ての情報は、事業実施や効果的な政策立案、経営支援等（申請者への各種情報提供等）のために、事務局から国及び独立行政法人中小企業基盤整備機構に提供された後、統計的な処理等をされて匿名性を確保しつつ公表される場合や、その他本公募要領に記載された利活用をされる場合があるため、本申請を行うことにより、本データ利用について同意すること。なお、本補助金の審査にあたっては、中小企業庁所管の他補助金事務局が保有する、申請者に係る他補助金の申請・交付等に関する情報を利用する。また、効率的な補助金執行のため、本補助金の申請・交付等に関する情報についても、中小企業庁所管の他補助金事務局に対して情報共有することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１２）補助金の交付後に中小企業庁や事務局のホームページ等において、法人名・代表者名（屋号、個人名）、法人番号、住所（都道府県等）、テーマ名等を公表することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１３）申請時点から過去18ヵ月の間において、中小企業庁が所管する補助金※に申請した内容について、賃上げ加点の要件等が未達成の場合、正当な理由が認められない限り大幅に減点されることを了承した上で申請すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※令和8年9月時点では、ものづくり・商業・サービス生産性向上促進補助金、サービス等生産性向上IT導入支援事業、小規模事業者持続化補助金、事業承継・引継ぎ補助金、事業承継・M＆A補助金、成長型中小企業等研究開発支援事業（Go-Tech事業）、事業再構築補助金、新事業進出補助金、中小企業省力化投資補助事業を含む。</span></p><p><span style=\"font-size: 14px;\">（１４）事務局が求める補助対象事業に係る調査やアンケート等に協力できること。尚、本補助金では、事業承継・M&amp;A事業における「事業承継・引継ぎ支援センター」、「よろず支援拠点」、「中小企業活性化協議会（旧：中小企業再生支援協議会）」の利用状況について、申請時にアンケートを実施する。※回答内容が補助金の採択に影響することはありません。</span></p><p><span style=\"font-size: 14px;\">（１５）ファイナンシャルアドバイザー（以下、「FA」という。）・M&amp;A仲介費用を補助対象経費とする場合は、補助事業対象者が利用した「M&amp;A支援機関登録制度」に登録されたFA・仲介業者に関する情報について、事務局からM&amp;A支援機関登録制度事務局に対し情報提供すること及び補助事業対象者の内容について登録FA・仲介業者により、M&amp;A支援機関登録制度事務局に対し実績報告がなされることに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１６）「M&amp;A支援機関登録制度（</span><a href=\"https://ma-shienkikan.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://ma-shienkikan.go.jp/</a><span style=\"font-size: 14px;\">）」に登録された FA・仲介業者若しくは FA・仲介業者（法人）の代表者が補助事業者となる場合、自己又はその関連会社を FA・M&amp;A 仲介等の委託先としない事業であること。（公募申請時に他の FA・仲介業者へ委託する理由を求める場合がある）。</span></p><p><span style=\"font-size: 14px;\">（１７）</span><u style=\"font-size: 14px;\">過去の「経営資源引継ぎ補助金」又は「事業承継・引継ぎ補助金」の補助金受給者においては、期日までに事業化状況報告を適切に実施していること（事業化状況報告の実施義務が生じているにも関わらず、当該報告を提出しなかった者は対象外とする）。</u></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">【対象となる中小企業者等】</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法第2条に準じて、以下のとおり本補助金における中小企業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"width: 446.5pt; color: rgb(68, 68, 68); margin-left: -0.25pt; border: none;\" width=\"595\"><tbody><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border: 1pt solid windowtext; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">製造業その他<span style=\"color: black;\">（注</span><span style=\"color: black;\">1</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が3億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が300人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">卸売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が1億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">小売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が50人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">サービス業<span style=\"color: black;\">（注</span><span style=\"color: black;\">2</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注1）ゴム製品製造業（一部を除く）は資本金3億円以下又は従業員900人以下</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注2）ソフトウエア業・情報処理サービス業は資本金3億円以下又は従業員300人以下、旅館業は資本金5千万円以下又は従業員200人以下</span></p><p><span style=\"font-size: 14px;\">※資本金（出資金）又は従業員の基準を満たせば、医者（個人開業医）、農家（会社法上の会社又は有限会社である農業法人）、農家（個人農家）は中小企業者等に含むものとする。【該当者は、</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">公募要領の</span><span style=\"font-size: 14px;\">「6.1.補助対象となる事業及びM&amp;Aの要件」（２）-③を確認の上、対象事業に留意すること。】</span></p><p><strong style=\"font-size: 14px;\">※ただし、一部対象外となる中小企業者等の条件があるため、公募要領の「5.補助対象者」【対象外となる中小企業者等】を確認すること。</strong></p><p><br></p><p><strong style=\"font-size: 14px;\">【小規模企業者等定義】</strong></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律第２条に準じて、以下のとおり補助金における小規模事業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"color: rgb(68, 68, 68); font-size: 14px; margin-left: -0.25pt; border: none;\"><tbody><tr style=\"height: 23.75pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border: 1pt solid black; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">製造業その他</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">商業・サービス業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が5人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">サービス業のうち宿泊業・娯楽業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px;\">※「商業」とは、卸売業・小売業を指す。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">なし</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 14px;\">提出のあった申請に不備や確認すべき事項等があった場合、事務局からJグランツを通じて連絡を行う。</span></p><p><span style=\"font-size: 14px;\">申請を行った者は、採択結果の通知まで適宜Jグランツマイページや登録したメールアドレスへの連絡がないかどうかを確認すること。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">事業承継・M&amp;A補助金事務局（専門家活用/廃業・再チャレンジ）</span></p><p><span style=\"font-size: 14px;\">050-3145-3812</span></p><p><span style=\"font-size: 14px;\">お問い合わせ受付時間：平日9：30～12：00、13：00～17：00（土・日・祝日を除く）</span></p><p><span style=\"font-size: 14px;\">※下記の事業承継・M&amp;A補助金事務局プライバシーポリシーをご確認の上、お問い合わせください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf</a></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金Webサイト</span></p><p><span style=\"font-size: 14px;\">﻿※公募要領・交付規程は下記HPからご確認ください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/</a></p>",
-    "use_purpose": "事業を引き継ぎたい",
-    "industry": "建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": "1/3 以内 又は 1/2 以内",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RWUA0",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
     "attachments": []
@@ -3708,6 +3780,64 @@
     "subsidy_rate": "2/3 以内 又は 1/2 以内",
     "project_end_deadline": null,
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RYUA0",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": false,
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-04"
+  },
+  {
+   "id": "a0WfQ000003N1RXUA0",
+   "sig": "f34670bb072a",
+   "row": {
+    "acceptance_end_datetime": "2026-11-06T08:30:00.000Z",
+    "acceptance_start_datetime": "2026-10-02T06:00:00.000Z",
+    "id": "a0WfQ000003N1RXUA0",
+    "institution_name": null,
+    "name": "S-00009890",
+    "subsidy_max_limit": 1500000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(16次公募)_PMI推進枠(PMI専門家活用類型)"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "事業承継・M&A補助金",
+    "detail": "<p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■申請にあたっての注意点</strong></p><p><strong style=\"font-size: 14px;\">本補助金及び以下の申請フォームは、</strong><span style=\"font-size: 14px;\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金(16次公募)における</span><strong style=\"font-size: 14px;\">「PMI推進枠のPMI専門家活用類型」</strong><span style=\"font-size: 14px;\">について用意されたものである。</span></p><p><span style=\"font-size: 14px;\">廃業・再チャレンジ枠と併用にて申請する場合は、PMI推進枠専門家活用類型として申請すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">【申請期日5営業日前までの申請推奨について】</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">本補助金では過去公募回の申請タイミングの傾向から、申請期日の前日、当日に申請が集中することが予想され、当公募回については審査日程上、期日間際での申請に対し、事務局での複数回の不備指摘、修正差戻しができず、不備の解消がしない場合には不採択となる可能性がある。</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">採択の可能性を高めるために、申請内容の不備指摘、修正差戻しを希望する場合は、申請期日の5営業日前（2026年10月29日）までの提出を検討すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">【有償で申請内容の作成を第三者へ依頼する場合の注意点】</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">申請内容の作成を有償で第三者へ依頼する場合は、</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">行政書士(又は行政書士法人)に限られ、行政書士証憑・委任契約書の提出が必須となります。</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">詳細は「公募申請の手引き」をご確認ください。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金（以下、「本補助金」という。）は、中小企業者及び個人事業主（以下、中小企業者と個人事業主を総称して「中小企業者等」という。）が事業承継、事業再編及び事業統合を契機として新たな取り組みを行う事業等（以下、「本事業」という。）について、その経費の一部を補助することにより、事業承継、事業再編及び事業統合を促進し、</span><span style=\"font-size: 14px;\">生産性向上による</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">我が国経済の活性化を図ることを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">補助金等に係る予算の執行の適正化に関する法律</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法</span></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">本補助金の補助対象者は、以下の（１）～（１５）の要件を満たし、かつ公募要領に記載する</span><span style=\"font-size: 14px;\">「6.補助対象事業」の要件を満たす中小企業者等とする。尚、「PMI専門家活用類型（同時申請）」の場合は、別途公開される専門家活用枠の公募要領に記載された要件を満たす中小企業者等であることが必要となるため、留意すること。</span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※中小企業者等の要件については、公募要領の【対象となる中小企業者等】を参照。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※共同申請については、公募要領の「7.申請単位」を参照。</span></p><p><br></p><p><span style=\"font-size: 14px;\">（１）補助対象者は、日本国内に拠点又は居住地を置き、日本国内で事業を営む者であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">法人の場合は、申請時点で設立登記および3期分の決算及び申告が完了していること。</u></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">個人事業主は、「個人事業の開業届出書」並びに「所得税の青色申告承認申請書」を税務署に提出した日付から5年が経過しており、税務署に提出した確定申告書Bと所得税青色申告決算書の写しを提出できること。</u><span style=\"font-size: 14px;\">（税務申告・届出を電子で行っている場合は、受付が確認できる「メール詳細」または「受信通知」（受付結果）を追加で提出。「メール詳細」または「受信通知」（受付結果）がない場合は、「納税証明書〔その2〕所得金額の証明書」又は「課税証明書（所得金額の記載のあるもの）」も追加で提出）</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※外国籍の者は、「国籍・地域」「在留期間等」「在留資格」「在留期間等の満了の日」「30条45規定区分」の項目が明記された住民票を添付すること。</span></p><p><span style=\"font-size: 14px;\">（２）補助対象者は、地域経済に貢献している中小企業者等であること。地域の雇用の維持、創出や地域の強みである技術、特産品で地域を支える等、地域経済に貢献している（または貢献する予定の）中小企業者等であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の雇用の維持、創出等により地域経済に貢献している。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域からの仕入（域内仕入）が多い。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の強み（技術、特産品、観光、スポーツ等）の活用に取り組んでいる。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域以外の地域への売上（域外販売）が多い（インバウンド等による域内需要の増加に伴う売上も含む）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 新事業等に挑戦し、地域経済に貢献するプロジェクトにおいて中心的な役割を担っている。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 上記によらずその他、当該企業の成長が地域経済に波及効果をもたらし、地域経済の活性化につながる取組を行っている。</span></p><p><span style=\"font-size: 14px;\">（３）補助対象者又はその法人の役員が、暴力団等の反社会的勢力（反社会勢力については公募要領の「18．反社会的勢力との関係が判明した場合」（１）を参照すること。）でないこと。また、反社会的勢力との関係を有しないこと。なお、反社会的勢力から出資等の資金提供を受けている場合も対象外とする。</span></p><p><span style=\"font-size: 14px;\">（４）補助対象者は、法令遵守上の問題を抱えていないこと。</span></p><p><span style=\"font-size: 14px;\">（５）補助対象者は、補助事業完了後の事業化状況報告等を期限までに提出すること。</span></p><p><span style=\"font-size: 14px;\">（６）補助対象者は、公募要領等に違反しないこと。</span></p><p><span style=\"font-size: 14px;\">（７）補助対象者は、事務局から質問及び追加資料等の依頼があった場合は適切に対応すること。</span></p><p><span style=\"font-size: 14px;\">（８）補助対象者は、事務局が必要と認めるときは、事務局が補助金の採否、交付ほか各種事務局による承認及び結果通知に係る事項につき修正を加えて通知することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（９）補助対象者は、補助金の返還等の事由が発生した際、申請その他本補助金の交付にあたり負担した各種費用について、いかなる事由においても事務局が負担しないことについて同意すること。</span></p><p><span style=\"font-size: 14px;\">（１０）補助対象者は、経済産業省及び独立行政法人中小企業基盤整備機構から補助金指定停止措置又は指名停止措置が講じられていないこと。 </span></p><p><span style=\"font-size: 14px;\">（１１）補助金申請時・利用時・事業報告提出時等に提供いただいた個人情報を含む全ての情報は、事業実施や効果的な政策立案、経営支援等（申請者への各種情報提供等）のために、事務局から国及び独立行政法人中小企業基盤整備機構に提供された後、統計的な処理等をされて匿名性を確保しつつ公表される場合や、その他本公募要領に記載された利活用をされる場合があるため、本申請を行うことにより、本データ利用について同意すること。なお、本補助金の審査にあたっては、中小企業庁所管の他補助金事務局が保有する、申請者に係る他補助金の申請・交付等に関する情報を利用する。また、効率的な補助金執行のため、本補助金の申請・交付等に関する情報についても、中小企業庁所管の他補助金事務局に対して情報共有することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１２）補助金の交付後に中小企業庁や事務局のホームページ等において、法人名・代表者名（屋号、個人名）、法人番号、住所（都道府県等）、テーマ名等を公表することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１３）申請時点から過去18ヵ月の間において、中小企業庁が所管する補助金※に申請した内容について、賃上げ加点の要件等が未達成の場合、正当な理由が認められない限り大幅に減点されることを了承した上で申請すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※令和8年9月時点では、ものづくり・商業・サービス生産性向上促進補助金、サービス等生産性向上IT導入支援事業、小規模事業者持続化補助金、事業承継・引継ぎ補助金、事業承継・M&amp;A補助金、成長型中小企業等研究開発支援事業（Go-Tech事業）、事業再構築補助金、新事業進出補助金、中小企業省力化投資補助事業を含む。</span></p><p><span style=\"font-size: 14px;\">（１４）事務局が求める補助対象事業に係る調査やアンケート等に協力できること。なお、本補助金では、事業承継・M&amp;A事業における「事業承継・引継ぎ支援センター」、「よろず支援拠点」、「中小企業活性化協議会（旧：中小企業再生支援協議会）」の利用状況について、申請時にアンケートを実施する。※回答内容が補助金の採択に影響することはありません。</span></p><p><span style=\"font-size: 14px;\">（１５）</span><u style=\"font-size: 14px;\">過去の「経営資源引継ぎ補助金」又は「事業承継・引継ぎ補助金」の補助金受給者のうち、期日までに事業化状況報告を適切に実施していること（事業化状況報告の実施義務が生じているにも関わらず、当該報告を提出しなかった者は対象外とする）。</u></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">【対象となる中小企業者等】</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法第2条に準じて、以下のとおり本補助金における中小企業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"width: 446.5pt; color: rgb(68, 68, 68); margin-left: -0.25pt; border: none;\" width=\"595\"><tbody><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border: 1pt solid windowtext; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">製造業その他<span style=\"color: black;\">（注</span><span style=\"color: black;\">1</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が3億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が300人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">卸売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が1億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">小売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が50人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">サービス業<span style=\"color: black;\">（注</span><span style=\"color: black;\">2</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注1）ゴム製品製造業（一部を除く）は資本金3億円以下又は従業員900人以下</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注2）ソフトウエア業・情報処理サービス業は資本金3億円以下又は従業員300人以下、旅館業は資本金5千万円以下又は従業員200人以下</span></p><p><span style=\"font-size: 14px;\">※資本金（出資金）又は従業員の基準を満たせば、医者（個人開業医）、農家（会社法上の会社又は有限会社である農業法人）、農家（個人農家）は中小企業者等に含むものとする。【該当者は、</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">公募要領の</span><span style=\"font-size: 14px;\">「6.2.補助対象となるPMIの要件」【その他補助対象事業の要件】3.を確認の上、対象事業に留意すること。】</span></p><p><strong style=\"font-size: 14px;\">※ただし、一部対象外となる中小企業者等の条件があるため、公募要領の「5.補助対象者」【対象外となる中小企業者等】を確認すること。</strong></p><p><br></p><p><strong style=\"font-size: 14px;\">【小規模事業者等の定義】</strong></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律第２条に準じて、以下のとおり補助金における小規模事業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"color: rgb(68, 68, 68); font-size: 14px; margin-left: -0.25pt; border: none;\"><tbody><tr style=\"height: 23.75pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border: 1pt solid black; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">製造業その他</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">商業・サービス業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が5人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">サービス業のうち宿泊業・娯楽業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px;\">※「商業」とは、卸売業・小売業を指す。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">なし</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 14px;\">提出のあった申請に不備や確認すべき事項等があった場合、事務局からJグランツを通じて連絡を行う。</span></p><p><span style=\"font-size: 14px;\">申請を行った者は、採択結果の通知まで適宜Jグランツマイページや登録したメールアドレスへの連絡がないかどうかを確認すること。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">事業承継・M&amp;A補助金事務局（PMI推進）</span></p><p><span style=\"font-size: 14px;\">050-3192-6228</span></p><p><span style=\"font-size: 14px;\">お問い合わせ受付時間：平日9：30～12：00、13：00～17：00（土・日・祝日を除く）</span></p><p><span style=\"font-size: 14px;\">※下記の事業承継・M&amp;A補助金事務局プライバシーポリシーをご確認の上、お問い合わせください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf</a></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金Webサイト</span></p><p><span style=\"font-size: 14px;\">﻿※公募要領・交付規程は下記HPからご確認ください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/</a></p>",
+    "use_purpose": "事業を引き継ぎたい",
+    "industry": "建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": "1/2 以内",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RXUA0",
+    "request_reception_presence": "有",
+    "is_enable_multiple_request": false,
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-04"
+  },
+  {
+   "id": "a0WfQ000003N1RWUA0",
+   "sig": "db0e57b35b46",
+   "row": {
+    "acceptance_end_datetime": "2026-11-06T08:30:00.000Z",
+    "acceptance_start_datetime": "2026-10-02T06:00:00.000Z",
+    "id": "a0WfQ000003N1RWUA0",
+    "institution_name": null,
+    "name": "S-00009889",
+    "subsidy_max_limit": 20000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(16次公募)_専門家活用枠(買い手支援類型-100億企業特例)"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "事業承継・M&A補助金",
+    "detail": "<p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■申請にあたっての注意点</strong></p><p><strong style=\"font-size: 14px;\">本補助金及び以下の申請フォームは、</strong><span style=\"font-size: 14px;\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金(16次公募)における</span><strong style=\"font-size: 14px;\">「専門家活用枠」のうち、補助上限額を2,000万円以内とする買い手支援類型（100億企業特例）</strong><span style=\"font-size: 14px;\">について用意されたものである。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">【申請期日5営業日前までの申請推奨について】</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">本補助金では過去公募回の申請タイミングの傾向から、申請期日の前日、当日に申請が集中することが予想され、当公募回については審査日程上、期日間際での申請に対し、事務局での複数回の不備指摘、修正差戻しができず、不備の解消がしない場合には不採択となる可能性がある。</span></p><p><span style=\"font-size: 14px; color: rgb(250, 4, 4);\">採択の可能性を高めるために、申請内容の不備指摘、修正差戻しを希望する場合は、申請期日の5営業日前（2026年10月29日）までの提出を検討すること。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">【有償で申請内容の作成を第三者へ依頼する場合の注意点】</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">申請内容の作成を有償で第三者へ依頼する場合は、</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">行政書士(又は行政書士法人)に限られ、行政書士証憑・委任契約書の提出が必須となります。</span></p><p><span style=\"font-size: 14px; color: rgb(255, 0, 0);\">詳細は「公募申請の手引き」をご確認ください。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金（以下、「本補助金」という。）は、中小企業者及び個人事業主（以下、中小企業者と個人事業主を総称して「中小企業者等」という。）が事業承継、事業再編及び事業統合を契機として新たな取り組みを行う事業等（以下、「本事業」という。）について、その経費の一部を補助することにより、事業承継、事業再編及び事業統合を促進し、</span><span style=\"font-size: 14px;\">生産性向上による</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">我が国経済の活性化を図ることを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">補助金等に係る予算の執行の適正化に関する法律</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法</span></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">本補助金の補助対象者は、以下の（１）～（１７）の要件を満たし、かつ公募要領に記載する「6.1.補助対象となる事業及びM&amp;Aの要件」を満たす最終契約書の契約当事者(予定含む)たる中小企業者等とする。</span></p><p><br></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※中小企業者等の要件については、公募要領の【対象となる中小企業者等】を参照。</span></p><p><br></p><p><span style=\"font-size: 14px;\">（１）補助対象者は、日本国内に拠点又は居住地を置き、日本国内で事業を営む者であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">個人事業主は、「個人事業の開業届出書」並びに「所得税の青色申告承認申請書」を税務署に提出した日付から5年が経過しており、税務署に提出した確定申告書Bと所得税青色申告決算書の写しを提出できること</u><span style=\"font-size: 14px;\">（税務申告・届出を電子で行っている場合は、受付が確認できる「メール詳細」または「受信通知」（受付結果）を追加で提出。「メール詳細」または「受信通知」（受付結果）がない場合は、「納税証明書〔その2〕所得金額の証明書」又は「課税証明書（所得金額の記載のあるもの）」も追加で提出）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※外国籍の者は、「国籍・地域」「在留期間等」「在留資格」「在留期間等の満了の日」「30条45規定区分」の項目が明記された住民票を添付すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※</span><u style=\"font-size: 14px;\">補助対象者が法人の場合は、申請時点で設立登記および3期分の決算及び申告が完了していること。</u></p><p><span style=\"font-size: 14px;\">（２）補助対象者は、地域経済に貢献している中小企業者等であること。地域の雇用の維持、創出や地域の強みである技術、特産品で地域を支える等、地域経済に貢献している（または貢献する予定の）中小企業者等であること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※地域経済に貢献している例</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の雇用の維持、創出等により地域経済に貢献している。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域からの仕入（域内仕入）が多い。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 地域の強み（技術、特産品、観光、スポーツ等）の活用に取り組んでいる。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 所在する地域又は近隣地域以外の地域への売上（域外販売）が多い（インバウンド等による域内需要の増加に伴う売上も含む）。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 新事業等に挑戦し、地域経済に貢献するプロジェクトにおいて中心的な役割を担っている。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\"> • 上記によらずその他、当該企業の成長が地域経済に波及効果をもたらし、地域経済の活性化につながる取組を行っている。</span></p><p><span style=\"font-size: 14px;\">（３） 補助対象者又はその法人の役員が、暴力団等の反社会的勢力（反社会勢力については「18．反社会的勢力との関係が判明した場合」（１）を参照すること。）でないこと。また、反社会的勢力との関係を有しないこと。なお、反社会的勢力から出資等の資金提供を受けている場合も対象外とする。</span></p><p><span style=\"font-size: 14px;\">（４）補助対象者は、法令遵守上の問題を抱えていないこと。</span></p><p><span style=\"font-size: 14px;\">（５）補助対象者は、補助事業完了後の事業化状況報告等を期限までに提出すること。</span></p><p><span style=\"font-size: 14px;\">（６）補助対象者は、公募要領等に違反しないこと。</span></p><p><span style=\"font-size: 14px;\">（７）補助対象者は、事務局から質問及び追加資料等の依頼があった場合は適切に対応すること。</span></p><p><span style=\"font-size: 14px;\">（８）補助対象者は、事務局が必要と認めるときは、事務局が補助金の採否、交付ほか各種事務局による承認及び結果通知に係る事項につき修正を加えて通知することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（９）補助対象者は、補助金の返還等の事由が発生した際、申請その他本補助金の交付にあたり負担した各種費用について、いかなる事由においても事務局が負担しないことについて同意すること。</span></p><p><span style=\"font-size: 14px;\">（１０）補助対象者は、経済産業省及び独立行政法人中小企業基盤整備機構から補助金交付等停止措置又は指名停止措置が講じられていないこと。</span></p><p><span style=\"font-size: 14px;\">（１１）補助金申請時・利用時・事業報告提出時等に提供いただいた個人情報を含む全ての情報は、事業実施や効果的な政策立案、経営支援等（申請者への各種情報提供等）のために、事務局から国及び独立行政法人中小企業基盤整備機構に提供された後、統計的な処理等をされて匿名性を確保しつつ公表される場合や、その他本公募要領に記載された利活用をされる場合があるため、本申請を行うことにより、本データ利用について同意すること。なお、本補助金の審査にあたっては、中小企業庁所管の他補助金事務局が保有する、申請者に係る他補助金の申請・交付等に関する情報を利用する。また、効率的な補助金執行のため、本補助金の申請・交付等に関する情報についても、中小企業庁所管の他補助金事務局に対して情報共有することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１２）補助金の交付後に中小企業庁や事務局のホームページ等において、法人名・代表者名（屋号、個人名）、法人番号、住所（都道府県等）、テーマ名等を公表することに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１３）申請時点から過去18ヵ月の間において、中小企業庁が所管する補助金※に申請した内容について、賃上げ加点の要件等が未達成の場合、正当な理由が認められない限り大幅に減点されることを了承した上で申請すること。</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">※令和8年9月時点では、ものづくり・商業・サービス生産性向上促進補助金、サービス等生産性向上IT導入支援事業、小規模事業者持続化補助金、事業承継・引継ぎ補助金、事業承継・M＆A補助金、成長型中小企業等研究開発支援事業（Go-Tech事業）、事業再構築補助金、新事業進出補助金、中小企業省力化投資補助事業を含む。</span></p><p><span style=\"font-size: 14px;\">（１４）事務局が求める補助対象事業に係る調査やアンケート等に協力できること。尚、本補助金では、事業承継・M&amp;A事業における「事業承継・引継ぎ支援センター」、「よろず支援拠点」、「中小企業活性化協議会（旧：中小企業再生支援協議会）」の利用状況について、申請時にアンケートを実施する。※回答内容が補助金の採択に影響することはありません。</span></p><p><span style=\"font-size: 14px;\">（１５）ファイナンシャルアドバイザー（以下、「FA」という。）・M&amp;A仲介費用を補助対象経費とする場合は、補助事業対象者が利用した「M&amp;A支援機関登録制度」に登録されたFA・仲介業者に関する情報について、事務局からM&amp;A支援機関登録制度事務局に対し情報提供すること及び補助事業対象者の内容について登録FA・仲介業者により、M&amp;A支援機関登録制度事務局に対し実績報告がなされることに同意すること。</span></p><p><span style=\"font-size: 14px;\">（１６）「M&amp;A支援機関登録制度（</span><a href=\"https://ma-shienkikan.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://ma-shienkikan.go.jp/</a><span style=\"font-size: 14px;\">）」に登録された FA・仲介業者若しくは FA・仲介業者（法人）の代表者が補助事業者となる場合、自己又はその関連会社を FA・M&amp;A 仲介等の委託先としない事業であること。（公募申請時に他の FA・仲介業者へ委託する理由を求める場合がある）。</span></p><p><span style=\"font-size: 14px;\">（１７）</span><u style=\"font-size: 14px;\">過去の「経営資源引継ぎ補助金」又は「事業承継・引継ぎ補助金」の補助金受給者においては、期日までに事業化状況報告を適切に実施していること（事業化状況報告の実施義務が生じているにも関わらず、当該報告を提出しなかった者は対象外とする）。</u></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 0, 0);\">【対象となる中小企業者等】</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業基本法第2条に準じて、以下のとおり本補助金における中小企業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"width: 446.5pt; color: rgb(68, 68, 68); margin-left: -0.25pt; border: none;\" width=\"595\"><tbody><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border: 1pt solid windowtext; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: none; height: 19.85pt;\"><p align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">製造業その他<span style=\"color: black;\">（注</span><span style=\"color: black;\">1</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が3億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が300人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">卸売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が1億円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">小売業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が50人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 19.85pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm 5.4pt; width: 120.5pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; border-top: none; height: 19.85pt;\"><p class=\"MsoNormal\">サービス業<span style=\"color: black;\">（注</span><span style=\"color: black;\">2</span><span style=\"color: black;\">）</span></p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm 5.4pt; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; height: 19.85pt;\"><p class=\"MsoNormal\">資本金の額又は出資の総額が5千万円以下の会社</p><p class=\"MsoNormal\">又は常時使用する従業員の数が100人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注1）ゴム製品製造業（一部を除く）は資本金3億円以下又は従業員900人以下</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">（注2）ソフトウエア業・情報処理サービス業は資本金3億円以下又は従業員300人以下、旅館業は資本金5千万円以下又は従業員200人以下</span></p><p><span style=\"font-size: 14px;\">※資本金（出資金）又は従業員の基準を満たせば、医者（個人開業医）、農家（会社法上の会社又は有限会社である農業法人）、農家（個人農家）は中小企業者等に含むものとする。【該当者は、</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">公募要領の</span><span style=\"font-size: 14px;\">「6.1.補助対象となる事業及びM&amp;Aの要件」（２）-③を確認の上、対象事業に留意すること。】</span></p><p><strong style=\"font-size: 14px;\">※ただし、一部対象外となる中小企業者等の条件があるため、公募要領の「5.補助対象者」【対象外となる中小企業者等】を確認すること。</strong></p><p><br></p><p><strong style=\"font-size: 14px;\">【小規模企業者等定義】</strong></p><p><span style=\"font-size: 14px;\">商工会及び商工会議所による小規模事業者の支援に関する法律第２条に準じて、以下のとおり補助金における小規模事業者等を定義する。</span></p><table class=\"ql-table-blob\" border=\"1\" style=\"color: rgb(68, 68, 68); font-size: 14px; margin-left: -0.25pt; border: none;\"><tbody><tr style=\"height: 23.75pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border: 1pt solid black; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\">業種分類</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: none; height: 23.75pt;\"><p align=\"center\" class=\"TableParagraph\" style=\"margin-left: 5.35pt; text-align: center;\"><span style=\"color: black;\">定義</span></p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">製造業その他</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">商業・サービス業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が5人以下の会社及び個人事業主</p></td></tr><tr style=\"height: 35.95pt;\"><td colspan=\"1\" rowspan=\"1\" width=\"161\" style=\"padding: 0mm; width: 120.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-top: none; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">サービス業のうち宿泊業・娯楽業</p></td><td colspan=\"1\" rowspan=\"1\" width=\"435\" style=\"padding: 0mm; width: 326pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; height: 35.95pt;\"><p class=\"TableParagraph\" style=\"margin-left: 5.35pt;\">従業員の数が20人以下の会社及び個人事業主</p></td></tr></tbody></table><p><span style=\"font-size: 14px;\">※「商業」とは、卸売業・小売業を指す。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">なし</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 14px;\">提出のあった申請に不備や確認すべき事項等があった場合、事務局からJグランツを通じて連絡を行う。</span></p><p><span style=\"font-size: 14px;\">申請を行った者は、採択結果の通知まで適宜Jグランツマイページや登録したメールアドレスへの連絡がないかどうかを確認すること。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">事業承継・M&amp;A補助金事務局（専門家活用/廃業・再チャレンジ）</span></p><p><span style=\"font-size: 14px;\">050-3145-3812</span></p><p><span style=\"font-size: 14px;\">お問い合わせ受付時間：平日9：30～12：00、13：00～17：00（土・日・祝日を除く）</span></p><p><span style=\"font-size: 14px;\">※下記の事業承継・M&amp;A補助金事務局プライバシーポリシーをご確認の上、お問い合わせください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/p_policy/privacypolicy.pdf</a></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">中小企業生産性革命推進事業 事業承継・M&amp;A補助金Webサイト</span></p><p><span style=\"font-size: 14px;\">﻿※公募要領・交付規程は下記HPからご確認ください。</span></p><p><a href=\"https://shoukei-mahojokin.go.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px; color: rgb(11, 92, 171);\">https://shoukei-mahojokin.go.jp/</a></p>",
+    "use_purpose": "事業を引き継ぎたい",
+    "industry": "建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 公務（他に分類されるものを除く） / 分類不能の産業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": "1/3 以内 又は 1/2 以内",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003N1RWUA0",
     "request_reception_presence": "有",
     "is_enable_multiple_request": false,
     "attachments": []
@@ -8269,23 +8399,6 @@
    "detail_fetched": null
   },
   {
-   "id": "a0WJ200000CDZX4MAP",
-   "sig": "3695e9f6bab8",
-   "row": {
-    "acceptance_end_datetime": "2026-06-15T05:00:00.000Z",
-    "acceptance_start_datetime": "2026-05-12T00:00:00.000Z",
-    "id": "a0WJ200000CDZX4MAP",
-    "institution_name": null,
-    "name": "S-00009214",
-    "subsidy_max_limit": 4000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ1（F/S・PoC）支援事業"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
    "id": "a0WJ200000CDZX6MAP",
    "sig": "e4927ef28bea",
    "row": {
@@ -8315,6 +8428,23 @@
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
     "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ2（R&D）支援事業"
+   },
+   "detail": null,
+   "detail_fetched": null
+  },
+  {
+   "id": "a0WJ200000CDZX4MAP",
+   "sig": "3695e9f6bab8",
+   "row": {
+    "acceptance_end_datetime": "2026-06-15T05:00:00.000Z",
+    "acceptance_start_datetime": "2026-05-12T00:00:00.000Z",
+    "id": "a0WJ200000CDZX4MAP",
+    "institution_name": null,
+    "name": "S-00009214",
+    "subsidy_max_limit": 4000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ1（F/S・PoC）支援事業"
    },
    "detail": null,
    "detail_fetched": null
@@ -9386,91 +9516,6 @@
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
     "title": "2026年度「二国間クレジット制度（JCM）等を活用した低炭素技術普及促進事業／定量化促進事業／JCMクレジット化支援調査事業」の公募"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDcQUMA1",
-   "sig": "9cae196526d1",
-   "row": {
-    "acceptance_end_datetime": "2026-05-15T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-03-31T00:00:00.000Z",
-    "id": "a0WJ200000CDcQUMA1",
-    "institution_name": null,
-    "name": "S-00009434",
-    "subsidy_max_limit": 0,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "観光地・観光産業におけるユニバーサルツーリズム促進事業"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYVPMA5",
-   "sig": "347057328317",
-   "row": {
-    "acceptance_end_datetime": "2026-05-15T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-20T06:00:00.000Z",
-    "id": "a0WJ200000CDYVPMA5",
-    "institution_name": null,
-    "name": "S-00008756",
-    "subsidy_max_limit": 500000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（低炭素型建材活用新築ZEB支援事業）"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYbOMAX",
-   "sig": "e319738fb731",
-   "row": {
-    "acceptance_end_datetime": "2026-05-15T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-13T00:00:00.000Z",
-    "id": "a0WJ200000CDYbOMAX",
-    "institution_name": null,
-    "name": "S-00008861",
-    "subsidy_max_limit": 5000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "北九州市環境未来ビジネス創出助成金"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYX4MAP",
-   "sig": "228af0b677fa",
-   "row": {
-    "acceptance_end_datetime": "2026-05-15T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-21T05:00:00.000Z",
-    "id": "a0WJ200000CDYX4MAP",
-    "institution_name": null,
-    "name": "S-00008810",
-    "subsidy_max_limit": 1225000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和8年度_優良取組認定の公募について"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYONMA5",
-   "sig": "d215dc33a88e",
-   "row": {
-    "acceptance_end_datetime": "2026-05-15T03:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-09T06:00:00.000Z",
-    "id": "a0WJ200000CDYONMA5",
-    "institution_name": null,
-    "name": "S-00008652",
-    "subsidy_max_limit": 60000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和7年度（補正予算）　一次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業"
    },
    "detail": null,
    "detail_fetched": null

@@ -2,7 +2,7 @@
  "id": "yojofuryoku",
  "queries": ["洋上風力"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-11T09:43+09:00",
+ "fetched_at": "2026-11-12T11:02+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122214319X00120261022_009", "2026-10-22", "参", "国土交通委員会", "井林辰憲", "自由民主党・無所属の会", "国土交通大臣", 0],
