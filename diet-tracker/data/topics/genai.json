@@ -2,7 +2,7 @@
  "id": "genai",
  "queries": ["生成AI"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-12T11:02+09:00",
+ "fetched_at": "2026-11-13T10:10+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122205124X00120261023_007", "2026-10-23", "衆", "文部科学委員会", "関芳弘", "自由民主党・無所属の会", "文部科学大臣", 0],

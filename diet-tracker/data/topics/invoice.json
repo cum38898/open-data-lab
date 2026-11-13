@@ -2,7 +2,7 @@
  "id": "invoice",
  "queries": ["インボイス"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-12T11:01+09:00",
+ "fetched_at": "2026-11-13T10:10+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122205261X00320261014_210", "2026-10-14", "衆", "予算委員会", "吉川里奈", "参政党", null, 0],
