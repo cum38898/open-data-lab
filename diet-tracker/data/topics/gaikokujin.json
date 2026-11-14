@@ -2,7 +2,7 @@
  "id": "gaikokujin",
  "queries": ["外国人労働者", "育成就労"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-13T10:10+09:00",
+ "fetched_at": "2026-11-14T09:56+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122215206X00220261027_203", "2026-10-27", "参", "法務委員会", "北村晴男", "日本保守党", null, 0],
