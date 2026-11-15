@@ -2,7 +2,7 @@
  "id": "boeihi",
  "queries": ["防衛費"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-14T09:57+09:00",
+ "fetched_at": "2026-11-15T09:00+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122214370X00220261027_199", "2026-10-27", "参", "財政金融委員会", "寺田広紀", null, "防衛省大臣官房審議官", 0],
