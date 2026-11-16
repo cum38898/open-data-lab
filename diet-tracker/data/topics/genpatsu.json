@@ -2,7 +2,7 @@
  "id": "genpatsu",
  "queries": ["原発"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-15T09:00+09:00",
+ "fetched_at": "2026-11-16T09:01+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122214080X00220261027_179", "2026-10-27", "参", "経済産業委員会", "百田尚樹", "日本保守党", null, 0],
