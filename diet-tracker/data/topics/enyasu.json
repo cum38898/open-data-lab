@@ -2,7 +2,7 @@
  "id": "enyasu",
  "queries": ["円安"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-17T11:59+09:00",
+ "fetched_at": "2026-11-18T11:29+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122214370X00220261027_174", "2026-10-27", "参", "財政金融委員会", "大島九州男", "いのちの党", null, 0],
