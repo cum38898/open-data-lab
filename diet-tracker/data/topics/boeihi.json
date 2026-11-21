@@ -2,7 +2,7 @@
  "id": "boeihi",
  "queries": ["防衛費"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-20T10:54+09:00",
+ "fetched_at": "2026-11-21T10:36+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122203968X00220261028_175", "2026-10-28", "衆", "外務委員会", "木下敏之", "参政党", null, 0],
