@@ -2,7 +2,7 @@
  "id": "rideshare",
  "queries": ["ライドシェア"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-21T10:36+09:00",
+ "fetched_at": "2026-11-22T09:25+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122215254X00320261009_015", "2026-10-09", "参", "本会議", "高市早苗", "自由民主党・無所属の会", "内閣総理大臣", 0],

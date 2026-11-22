@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T10:35+09:00",
+ "generated": "2026-11-22T09:24+09:00",
  "items": [
   {
    "id": "a0WJ200000CDOuuMAH",
@@ -400,66 +400,6 @@
    "detail_fetched": "2026-11-20"
   },
   {
-   "id": "a0WJ200000CDXFfMAP",
-   "sig": "f572b31b98e7",
-   "row": {
-    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
-    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
-    "id": "a0WJ200000CDXFfMAP",
-    "institution_name": null,
-    "name": "S-00007954",
-    "subsidy_max_limit": 70000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "京都市企業立地促進制度補助金［市内初進出支援制度］"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "企業の京都市への初進出を支援！オフィス賃料最大2,000万円、京都市内居住の社員等の人数に応じて最大5,000万円を補助します！",
-    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296639.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296639.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外企業が市内に初めてオフィス等を設置する場合に、市内居住の常時雇用者数に応じて補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">《補助対象者》</strong></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、 既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業であること。ただし、次に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">補助対象者が市内にオフィス等を設置する事業（賃貸借の場合は契約期間が1年以上であるなど、長期の設置が見込まれる事業に限る。）を対象とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">①賃料にかかる補助金　1年度当たり1,000万円（2年度分合計で最大2,000万円）です。</span></p><p><span style=\"font-size: 12.8px;\">②雇用にかかる補助金　1年度当たり2,500万円（2年度分合計で最大5,000万円）です。</span></p><p><strong style=\"color: rgb(0, 111, 173);\">《補助率》</strong></p><p>①賃料<span style=\"font-size: 12.8px;\">にかかる補助金</span></p><p><span style=\"font-size: 12.8px;\">　</span>市内のオフィス等の賃料及び利用料として補助対象者が支払う経費に100分の50を乗じた額を補助します。</p><p><span style=\"font-size: 12.8px;\">②雇用にかかる補助金</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のオフィス等に勤務する市内居住の常時雇用者及び役員（交付の申請の日から遡って6箇月間以上継続して雇用・居住している者に限る）1人につき、1年度当たり10万円を補助します。</span></li><li><span style=\"font-size: 12.8px;\">補助対象者が「本市の産業政策に特に寄与する産業分野の企業」、「海外企業」、「京町家に入居する企業」のいずれかに該当する場合は、それぞれに該当するごとに補助額に2を乗じます。</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">オフィス等の営業を開始する日の30日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を市長に提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">京都市HP（</strong><span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［市内初進出支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296639.html\" target=\"_blank\" style=\"color: rgb(1, 68, 134);\">https://www.city.kyoto.lg.jp/sankan/page/0000296639.html</a></p>",
-    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
-    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": null,
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFfMAP",
-    "request_reception_presence": "無",
-    "is_enable_multiple_request": false,
-    "institution_name": "京都市企業立地促進制度",
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-20"
-  },
-  {
-   "id": "a0WJ200000CDXFiMAP",
-   "sig": "ee891855ea7c",
-   "row": {
-    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
-    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
-    "id": "a0WJ200000CDXFiMAP",
-    "institution_name": null,
-    "name": "S-00007957",
-    "subsidy_max_limit": 500000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "京都市企業立地促進制度補助金［お試し立地支援制度］"
-   },
-   "detail": {
-    "subsidy_catch_phrase": "京都市への進出を検討する企業を支援！シェアオフィス等の利用料や交通費を最大50万円補助します。",
-    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外から市内に初めて進出を検討する企業が、試行的に市内のシェアオフィスやコワーキングスペース等を利用する場合に、利用料及び交通費に対して補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業で、市内での事業所の設置を検討している方とします。 ただし、次の各号に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li><li><span style=\"font-size: 12.8px;\">過去に本補助金の交付を受けた者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">次の各号の要件をすべて満たす事業とし、補助対象期間は3箇月間（海外企業においては6箇月間）を上限とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のシェアオフィス等を7日以上利用すること。</span></li><li><span style=\"font-size: 12.8px;\">補助対象期間内に市の取材やアンケート等に応じること。</span></li></ol><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助額</strong></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助率》</strong></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：シェアオフィス等の利用料として支払う経費（通常定額の利用料に含まれないもの及び消費税等を除く）に100分の50を乗じた額</span></li><li><span style=\"font-size: 12.8px;\">交通費：通常勤務する事業所等の所在地とシェアオフィス等との往復の交通費として支払う経費に100分の50を乗じた額</span></li></ol><p><strong style=\"font-size: 12.8px; color: rgb(0, 111, 173);\">《補助上限額》</strong></p><p><span style=\"font-size: 12.8px;\">利用日数及び利用人数に応じて限度額を設定しています。</span></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：最大25万円（海外企業は最大50万円）</span></li><li><span style=\"font-size: 12.8px;\">交通費：最大25万円（海外企業は最大50万円）</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">シェアオフィス等の利用を開始する日の7日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>京都市HP（<span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［お試し立地支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(11, 92, 171);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p>",
-    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
-    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
-    "target_area_detail": null,
-    "subsidy_rate": "シェアオフィス等の利用料の1/2 + 交通費の1/2",
-    "project_end_deadline": null,
-    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFiMAP",
-    "request_reception_presence": "無",
-    "is_enable_multiple_request": false,
-    "institution_name": "京都市企業立地促進制度",
-    "attachments": []
-   },
-   "detail_fetched": "2026-11-20"
-  },
-  {
    "id": "a0WJ200000CDXFhMAP",
    "sig": "692dc1c8806f",
    "row": {
@@ -512,6 +452,66 @@
     "subsidy_rate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％",
     "project_end_deadline": null,
     "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFgMAP",
+    "request_reception_presence": "無",
+    "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-20"
+  },
+  {
+   "id": "a0WJ200000CDXFfMAP",
+   "sig": "f572b31b98e7",
+   "row": {
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "id": "a0WJ200000CDXFfMAP",
+    "institution_name": null,
+    "name": "S-00007954",
+    "subsidy_max_limit": 70000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "京都市企業立地促進制度補助金［市内初進出支援制度］"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "企業の京都市への初進出を支援！オフィス賃料最大2,000万円、京都市内居住の社員等の人数に応じて最大5,000万円を補助します！",
+    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296639.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296639.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外企業が市内に初めてオフィス等を設置する場合に、市内居住の常時雇用者数に応じて補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">《補助対象者》</strong></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、 既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業であること。ただし、次に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">補助対象者が市内にオフィス等を設置する事業（賃貸借の場合は契約期間が1年以上であるなど、長期の設置が見込まれる事業に限る。）を対象とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助金上限額</strong></p><p><span style=\"font-size: 12.8px;\">①賃料にかかる補助金　1年度当たり1,000万円（2年度分合計で最大2,000万円）です。</span></p><p><span style=\"font-size: 12.8px;\">②雇用にかかる補助金　1年度当たり2,500万円（2年度分合計で最大5,000万円）です。</span></p><p><strong style=\"color: rgb(0, 111, 173);\">《補助率》</strong></p><p>①賃料<span style=\"font-size: 12.8px;\">にかかる補助金</span></p><p><span style=\"font-size: 12.8px;\">　</span>市内のオフィス等の賃料及び利用料として補助対象者が支払う経費に100分の50を乗じた額を補助します。</p><p><span style=\"font-size: 12.8px;\">②雇用にかかる補助金</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のオフィス等に勤務する市内居住の常時雇用者及び役員（交付の申請の日から遡って6箇月間以上継続して雇用・居住している者に限る）1人につき、1年度当たり10万円を補助します。</span></li><li><span style=\"font-size: 12.8px;\">補助対象者が「本市の産業政策に特に寄与する産業分野の企業」、「海外企業」、「京町家に入居する企業」のいずれかに該当する場合は、それぞれに該当するごとに補助額に2を乗じます。</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">オフィス等の営業を開始する日の30日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を市長に提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">京都市HP（</strong><span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［市内初進出支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296639.html\" target=\"_blank\" style=\"color: rgb(1, 68, 134);\">https://www.city.kyoto.lg.jp/sankan/page/0000296639.html</a></p>",
+    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
+    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": null,
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFfMAP",
+    "request_reception_presence": "無",
+    "is_enable_multiple_request": false,
+    "institution_name": "京都市企業立地促進制度",
+    "attachments": []
+   },
+   "detail_fetched": "2026-11-20"
+  },
+  {
+   "id": "a0WJ200000CDXFiMAP",
+   "sig": "ee891855ea7c",
+   "row": {
+    "acceptance_end_datetime": "2027-03-31T14:59:00.000Z",
+    "acceptance_start_datetime": "2025-03-31T15:00:00.000Z",
+    "id": "a0WJ200000CDXFiMAP",
+    "institution_name": null,
+    "name": "S-00007957",
+    "subsidy_max_limit": 500000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "京都市企業立地促進制度補助金［お試し立地支援制度］"
+   },
+   "detail": {
+    "subsidy_catch_phrase": "京都市への進出を検討する企業を支援！シェアオフィス等の利用料や交通費を最大50万円補助します。",
+    "detail": "<p><strong style=\"font-size: 12.8px;\">※J グランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下 HP をご確認ください。 </strong></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">京都市における企業の立地を促進し、産業基盤の強化とともに雇用の場を確保し、産業の振興及び労働者の雇用の安定に寄与することを目的として、市外から市内に初めて進出を検討する企業が、試行的に市内のシェアオフィスやコワーキングスペース等を利用する場合に、利用料及び交通費に対して補助金を交付します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">《補助対象者》</span></p><p><span style=\"font-size: 12.8px;\">補助金の交付を受けることができる方は、既に市外に事業所を設置しており、かつ、過去2年の間、市内に事業所を設置していない企業で、市内での事業所の設置を検討している方とします。 ただし、次の各号に掲げる方は対象としません。</span></p><ol><li><span style=\"font-size: 12.8px;\">京都市暴力団排除条例第2条第4号に規定する暴力団員等又は同条第5号に規定する暴力団密接関係者</span></li><li><span style=\"font-size: 12.8px;\">風俗営業等の規制及び業務の適正化等に関する法律に規定する性風俗関連特殊営業及びそれらに類似する業種を営む者</span></li><li><span style=\"font-size: 12.8px;\">営業に関して必要な認可等を取得していない者</span></li><li><span style=\"font-size: 12.8px;\">市町村税を滞納している者</span></li><li><span style=\"font-size: 12.8px;\">本市が補助金を交付するに当たり、社会的な信頼性及び公平性を損なうおそれがある者</span></li><li><span style=\"font-size: 12.8px;\">過去に本補助金の交付を受けた者</span></li></ol><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助対象事業》</strong></p><p><span style=\"font-size: 12.8px;\">次の各号の要件をすべて満たす事業とし、補助対象期間は3箇月間（海外企業においては6箇月間）を上限とします。</span></p><ol><li><span style=\"font-size: 12.8px;\">市内のシェアオフィス等を7日以上利用すること。</span></li><li><span style=\"font-size: 12.8px;\">補助対象期間内に市の取材やアンケート等に応じること。</span></li></ol><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助額</strong></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">《補助率》</strong></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：シェアオフィス等の利用料として支払う経費（通常定額の利用料に含まれないもの及び消費税等を除く）に100分の50を乗じた額</span></li><li><span style=\"font-size: 12.8px;\">交通費：通常勤務する事業所等の所在地とシェアオフィス等との往復の交通費として支払う経費に100分の50を乗じた額</span></li></ol><p><strong style=\"font-size: 12.8px; color: rgb(0, 111, 173);\">《補助上限額》</strong></p><p><span style=\"font-size: 12.8px;\">利用日数及び利用人数に応じて限度額を設定しています。</span></p><ol><li><span style=\"font-size: 12.8px;\">シェアオフィス等の利用料：最大25万円（海外企業は最大50万円）</span></li><li><span style=\"font-size: 12.8px;\">交通費：最大25万円（海外企業は最大50万円）</span></li></ol><p><strong style=\"color: rgb(0, 111, 173);\">■申請方法</strong></p><p><span style=\"font-size: 12.8px;\">シェアオフィス等の利用を開始する日の7日前までに、京都市企業立地促進制度補助金補助対象事業指定申請書（第1号様式）を提出してください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">京都市 産業観光局 企業誘致推進室</span></p><p><span style=\"font-size: 12.8px;\">電話：075-222-4239 FAX：075-222-3331</span></p><p><span style=\"font-size: 12.8px;\">メールアドレス：kigyoyc@city.kyoto.lg.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>京都市HP（<span style=\"font-size: 12.8px;\">京都市企業立地促進制度補助金［お試し立地支援制度］）</span></p><p><a href=\"https://www.city.kyoto.lg.jp/sankan/page/0000296640.html\" target=\"_blank\" style=\"color: rgb(11, 92, 171);\">https://www.city.kyoto.lg.jp/sankan/page/0000296640.html</a></p>",
+    "use_purpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
+    "industry": "漁業 / 建設業 / 製造業 / 電気・ガス・熱供給・水道業 / 情報通信業 / 複合サービス事業 / サービス業（他に分類されないもの） / 分類不能の産業 / 農業、林業 / 鉱業、採石業、砂利採取業 / 運輸業、郵便業 / 卸売業、小売業 / 金融業、保険業 / 不動産業、物品賃貸業 / 学術研究、専門・技術サービス業 / 宿泊業、飲食サービス業 / 生活関連サービス業、娯楽業 / 教育、学習支援業 / 医療、福祉",
+    "target_area_detail": null,
+    "subsidy_rate": "シェアオフィス等の利用料の1/2 + 交通費の1/2",
+    "project_end_deadline": null,
+    "front_subsidy_detail_page_url": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXFiMAP",
     "request_reception_presence": "無",
     "is_enable_multiple_request": false,
     "institution_name": "京都市企業立地促進制度",
@@ -2471,7 +2471,7 @@
      "様式第1別紙（試験研究機関等（大学等）申請用）●●●(●●●には申請者名を入れてください).xlsx"
     ]
    },
-   "detail_fetched": "2026-11-14"
+   "detail_fetched": "2026-11-22"
   },
   {
    "id": "a0WJ200000CDYBxMAP",
@@ -2670,7 +2670,7 @@
     "institution_name": "小規模事業者持続化補助金＜創業型＞",
     "attachments": []
    },
-   "detail_fetched": "2026-11-14"
+   "detail_fetched": "2026-11-22"
   },
   {
    "id": "a0WJ200000CDXmVMAX",
@@ -3529,7 +3529,7 @@
     "institution_name": "調査等",
     "attachments": []
    },
-   "detail_fetched": "2026-11-14"
+   "detail_fetched": "2026-11-22"
   },
   {
    "id": "a0WJ200000CDYbNMAX",
@@ -7050,18 +7050,18 @@
    "detail_fetched": null
   },
   {
-   "id": "a0WJ200000CDapgMAD",
-   "sig": "35561443e9f5",
+   "id": "a0WJ200000CDaphMAD",
+   "sig": "d9cd8b61fd43",
    "row": {
     "acceptance_end_datetime": "2026-07-24T08:30:00.000Z",
     "acceptance_start_datetime": "2026-06-19T06:00:00.000Z",
-    "id": "a0WJ200000CDapgMAD",
+    "id": "a0WJ200000CDaphMAD",
     "institution_name": null,
-    "name": "S-00009341",
-    "subsidy_max_limit": 10000000,
+    "name": "S-00009342",
+    "subsidy_max_limit": 3000000,
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
-    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(15次公募)_事業承継促進枠"
+    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(15次公募)_廃業・再チャレンジ枠"
    },
    "detail": null,
    "detail_fetched": null
@@ -7152,18 +7152,18 @@
    "detail_fetched": null
   },
   {
-   "id": "a0WJ200000CDaphMAD",
-   "sig": "d9cd8b61fd43",
+   "id": "a0WJ200000CDapgMAD",
+   "sig": "35561443e9f5",
    "row": {
     "acceptance_end_datetime": "2026-07-24T08:30:00.000Z",
     "acceptance_start_datetime": "2026-06-19T06:00:00.000Z",
-    "id": "a0WJ200000CDaphMAD",
+    "id": "a0WJ200000CDapgMAD",
     "institution_name": null,
-    "name": "S-00009342",
-    "subsidy_max_limit": 3000000,
+    "name": "S-00009341",
+    "subsidy_max_limit": 10000000,
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
-    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(15次公募)_廃業・再チャレンジ枠"
+    "title": "中小企業生産性革命推進事業_事業承継・M&A補助金(15次公募)_事業承継促進枠"
    },
    "detail": null,
    "detail_fetched": null
@@ -8614,23 +8614,6 @@
    "detail_fetched": null
   },
   {
-   "id": "a0WJ200000CDZX4MAP",
-   "sig": "3695e9f6bab8",
-   "row": {
-    "acceptance_end_datetime": "2026-06-15T05:00:00.000Z",
-    "acceptance_start_datetime": "2026-05-12T00:00:00.000Z",
-    "id": "a0WJ200000CDZX4MAP",
-    "institution_name": null,
-    "name": "S-00009214",
-    "subsidy_max_limit": 4000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ1（F/S・PoC）支援事業"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
    "id": "a0WJ200000CDZX6MAP",
    "sig": "e4927ef28bea",
    "row": {
@@ -8660,6 +8643,23 @@
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
     "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ2（R&D）支援事業"
+   },
+   "detail": null,
+   "detail_fetched": null
+  },
+  {
+   "id": "a0WJ200000CDZX4MAP",
+   "sig": "3695e9f6bab8",
+   "row": {
+    "acceptance_end_datetime": "2026-06-15T05:00:00.000Z",
+    "acceptance_start_datetime": "2026-05-12T00:00:00.000Z",
+    "id": "a0WJ200000CDZX4MAP",
+    "institution_name": null,
+    "name": "S-00009214",
+    "subsidy_max_limit": 4000000,
+    "target_area_search": "全国",
+    "target_number_of_employees": "従業員数の制約なし",
+    "title": "【環境省】環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）フェーズ1（F/S・PoC）支援事業"
    },
    "detail": null,
    "detail_fetched": null
@@ -9442,108 +9442,6 @@
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
     "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　１次締切分）"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDY7PMAX",
-   "sig": "cad68ef0df92",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T14:59:00.000Z",
-    "acceptance_start_datetime": "2026-04-08T00:00:00.000Z",
-    "id": "a0WJ200000CDY7PMAX",
-    "institution_name": null,
-    "name": "S-00008490",
-    "subsidy_max_limit": 0,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和８年度子育て【建設型】全体設計"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYkNMAX",
-   "sig": "d16a2f5ab0c1",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-22T00:00:00.000Z",
-    "id": "a0WJ200000CDYkNMAX",
-    "institution_name": null,
-    "name": "S-00009015",
-    "subsidy_max_limit": 0,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "【農林水産省】食品等物流合理化緊急対策事業のうち輸出物流構築事業（間接補助事業者公募）"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYkMMAX",
-   "sig": "2c7a944c9e72",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-22T00:00:00.000Z",
-    "id": "a0WJ200000CDYkMMAX",
-    "institution_name": null,
-    "name": "S-00009014",
-    "subsidy_max_limit": 0,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "【農林水産省】食品等物流合理化緊急対策事業のうち物流生産性向上推進事業（間接補助事業者公募）"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYaoMAH",
-   "sig": "47fd9de062e5",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-24T00:00:00.000Z",
-    "id": "a0WJ200000CDYaoMAH",
-    "institution_name": null,
-    "name": "S-00008854",
-    "subsidy_max_limit": 500000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和８年度　コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYZ2MAP",
-   "sig": "5f229a25efed",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T06:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-27T06:00:00.000Z",
-    "id": "a0WJ200000CDYZ2MAP",
-    "institution_name": null,
-    "name": "S-00008831",
-    "subsidy_max_limit": 20000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和8年度中堅・中小企業輸出支援エコシステム形成事業費補助金"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDY51MAH",
-   "sig": "d3af6b757c86",
-   "row": {
-    "acceptance_end_datetime": "2026-05-25T03:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-08T01:00:00.000Z",
-    "id": "a0WJ200000CDY51MAH",
-    "institution_name": null,
-    "name": "S-00008432",
-    "subsidy_max_limit": 0,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "2026年度「二国間クレジット制度（JCM）等を活用した低炭素技術普及促進事業／定量化促進事業／有望技術分野の新規方法論開発に向けた調査」の公募"
    },
    "detail": null,
    "detail_fetched": null
