@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T09:24+09:00",
+ "generated": "2026-11-23T09:57+09:00",
  "items": [
   {
    "id": "a0WJ200000CDOuuMAH",
@@ -2286,7 +2286,7 @@
     "institution_name": "ものづくり補助金",
     "attachments": []
    },
-   "detail_fetched": "2026-11-15"
+   "detail_fetched": "2026-11-23"
   },
   {
    "id": "a0WJ200000CDderMAD",
@@ -2798,12 +2798,12 @@
     "is_enable_multiple_request": true,
     "institution_name": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
     "attachments": [
-     "2026_HtA事業Ⅰ_鉄鋼│公募要領_v1.0 .pdf",
-     "R8HtA事業_事業Ⅰ（鉄鋼）_申請様式_v1.1.zip",
+     "2026_HtA事業Ⅰ_鉄鋼│公募要領_v1.1.pdf",
+     "R8HtA事業_事業Ⅰ（鉄鋼）_申請様式_v1.2.zip",
      "R8HtA_事業Ⅰ（鉄鋼）_FAQ_v1.0.pdf"
     ]
    },
-   "detail_fetched": "2026-11-15"
+   "detail_fetched": "2026-11-23"
   },
   {
    "id": "a0WfQ000003znYLUAY",
@@ -2832,12 +2832,12 @@
     "is_enable_multiple_request": true,
     "institution_name": "令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
     "attachments": [
-     "2026_HtA事業Ⅰ_鉄鋼│公募要領_v1.0 .pdf",
-     "R8HtA事業_事業Ⅰ（鉄鋼）_申請様式_v1.1.zip",
+     "2026_HtA事業Ⅰ_鉄鋼│公募要領_v1.1.pdf",
+     "R8HtA事業_事業Ⅰ（鉄鋼）_申請様式_v1.2.zip",
      "R8HtA_事業Ⅰ（鉄鋼）_FAQ_v1.0.pdf"
     ]
    },
-   "detail_fetched": "2026-11-15"
+   "detail_fetched": "2026-11-23"
   },
   {
    "id": "a0WfQ0000049aA1UAI",
@@ -9425,23 +9425,6 @@
     "target_area_search": "全国",
     "target_number_of_employees": "従業員数の制約なし",
     "title": "令和８年度「原子力産業基盤強化事業補助金」"
-   },
-   "detail": null,
-   "detail_fetched": null
-  },
-  {
-   "id": "a0WJ200000CDYc5MAH",
-   "sig": "0d393f452348",
-   "row": {
-    "acceptance_end_datetime": "2026-05-26T08:00:00.000Z",
-    "acceptance_start_datetime": "2026-04-21T00:00:00.000Z",
-    "id": "a0WJ200000CDYc5MAH",
-    "institution_name": null,
-    "name": "S-00008874",
-    "subsidy_max_limit": 20000000,
-    "target_area_search": "全国",
-    "target_number_of_employees": "従業員数の制約なし",
-    "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　１次締切分）"
    },
    "detail": null,
    "detail_fetched": null

@@ -2,7 +2,7 @@
  "id": "hokkaido",
  "queries": ["北海道"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-22T09:25+09:00",
+ "fetched_at": "2026-11-23T09:58+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122204260X00420261030_064", "2026-10-30", "衆", "厚生労働委員会", "東徹", "日本維新の会", null, 0],

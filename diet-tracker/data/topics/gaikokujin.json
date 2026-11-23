@@ -2,7 +2,7 @@
  "id": "gaikokujin",
  "queries": ["外国人労働者", "育成就労"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-22T09:24+09:00",
+ "fetched_at": "2026-11-23T09:57+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122215206X00320261105_112", "2026-11-05", "参", "法務委員会", "安達悠司", "参政党", null, 0],
