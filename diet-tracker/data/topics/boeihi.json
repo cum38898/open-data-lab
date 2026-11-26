@@ -2,7 +2,7 @@
  "id": "boeihi",
  "queries": ["防衛費"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-25T12:36+09:00",
+ "fetched_at": "2026-11-26T11:55+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122213950X00320261105_032", "2026-11-05", "参", "外交防衛委員会", "田島麻衣子", "立憲民主・無所属", null, 0],
