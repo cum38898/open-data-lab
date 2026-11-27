@@ -2,7 +2,7 @@
  "id": "genai",
  "queries": ["生成AI"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-26T11:55+09:00",
+ "fetched_at": "2026-11-27T11:56+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122203968X00320261104_128", "2026-11-04", "衆", "外務委員会", "股野元貞", null, "外務省経済局長", 0],
