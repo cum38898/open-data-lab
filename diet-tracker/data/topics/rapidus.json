@@ -2,7 +2,7 @@
  "id": "rapidus",
  "queries": ["ラピダス"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-27T11:56+09:00",
+ "fetched_at": "2026-11-28T11:50+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122204080X00420261030_068", "2026-10-30", "衆", "経済産業委員会", "山岡達丸", "中道", null, 0],

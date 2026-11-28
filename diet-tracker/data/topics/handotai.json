@@ -2,7 +2,7 @@
  "id": "handotai",
  "queries": ["半導体"],
  "since": "2023-01-01",
- "fetched_at": "2026-11-27T11:56+09:00",
+ "fetched_at": "2026-11-28T11:49+09:00",
  "columns": ["id", "date", "house", "meeting", "speaker", "group", "position", "chair"],
  "rows": [
   ["122213950X00320261105_075", "2026-11-05", "参", "外交防衛委員会", "西川和見", null, "経済産業省大臣官房審議官", 0],
